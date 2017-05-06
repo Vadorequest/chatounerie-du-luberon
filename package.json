@@ -9,6 +9,7 @@
     "react-addons-transition-group": "15.5.2",
     "react-dom": "15.5.4",
     "react-jss": "6.1.1",
+    "react-sticky": "6.0.1",
     "reactstrap": "4.5.0"
   },
   "devDependencies": {
