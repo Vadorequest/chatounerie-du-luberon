@@ -10,6 +10,7 @@ const styles = {
 const Chatounerie = ({classes}) => {
   return (
     <section
+      id="chatounerie"
       className={classes.container}
     >
       <h1>La Chatounerie</h1>

@@ -1,5 +1,7 @@
 import React from 'react';
 import withSheet from 'react-jss';
+import smoothScroll from 'smoothscroll';
+import classNames from 'classnames';
 
 import coverImage from '../../public/cover.jpg';
 import overlayPatternImage from '../../public/overlay_pattern.png';
@@ -87,12 +89,13 @@ const Cover = ({classes, screenWidth, screenHeight}) => {
         </p>
       </div>
 
-      <a href="#navbar">
-        <div className={classes.scrollDown}>
+      <a
+        onClick={() => smoothScroll(document.querySelector('#navbar'))}
+        className={classNames(classes.scrollDown, 'pointer')}
+      >
         <span>
           <i className="fa fa-angle-down fa-2x"></i>
         </span>
-        </div>
       </a>
     </section>
   );
