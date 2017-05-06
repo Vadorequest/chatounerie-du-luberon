@@ -3,8 +3,10 @@ import withSheet from 'react-jss';
 import smoothScroll from 'smoothscroll';
 import classNames from 'classnames';
 
-import coverImage from '../../public/cover.jpg';
-import overlayPatternImage from '../../public/overlay_pattern.png';
+import { randomInt } from '../utils/helpers';
+import overlayPatternImage from '../../public/images/overlay_pattern.png';
+
+const coverImage = `../../images/covers/cover${randomInt(1, 5)}.jpg`;
 
 const styles = {
   container: {

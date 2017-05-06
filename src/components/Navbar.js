@@ -7,6 +7,9 @@ import smoothScroll from 'smoothscroll';
 import classNames from 'classnames';
 
 const styles = {
+  navbar: {
+    backgroundColor: 'white',
+  },
   navLinks: {
     '& li': {
       cursor: 'pointer',
@@ -34,7 +37,7 @@ class Navbar extends React.Component {
     return (
       <div id="navbar">
         <Sticky enabled>
-          <NavbarStrap color="faded" light toggleable>
+          <NavbarStrap className={classes.navbar} light toggleable>
             <NavbarToggler right onClick={this.toggle} />
             <NavbarBrand href="/">La Chatounerie du Lubéron</NavbarBrand>
             <Collapse isOpen={this.state.isOpen} navbar>
