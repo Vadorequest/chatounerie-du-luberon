@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Cover from '../components/Cover';
 import Navbar from '../components/Navbar';
+import Chatounerie from '../components/Chatounerie';
 
 class App extends Component {
   constructor(props) {
@@ -38,6 +39,7 @@ class App extends Component {
           screenHeight={this.state.screenHeight}
         />
         <Navbar />
+        <Chatounerie />
       </div>
     );
   }

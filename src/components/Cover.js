@@ -71,6 +71,7 @@ const styles = {
 const Cover = ({classes, screenWidth, screenHeight}) => {
   return (
     <section
+      id="home"
       className={classes.container}
       style={{ height: screenHeight }}
     >
