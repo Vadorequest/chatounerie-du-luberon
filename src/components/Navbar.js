@@ -49,7 +49,7 @@ class Navbar extends React.Component {
                   <NavLink onClick={() => smoothScroll(document.querySelector('#chatounerie'))}>La Chatounerie</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink onClick={() => smoothScroll(document.querySelector('#office'))}>Nos locaux</NavLink>
+                  <NavLink onClick={() => smoothScroll(document.querySelector('#office'))}>Nos installations</NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink onClick={() => smoothScroll(document.querySelector('#services'))}>Prestations et services</NavLink>
