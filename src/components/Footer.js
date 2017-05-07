@@ -22,7 +22,7 @@ const Footer = ({classes}) => {
     <section className={classNames(classes.footer, 'pt-4', 'pb-4')}>
       <Container>
         <Row>
-          <Col xs={{offset: 3}}>
+          <Col>
             <div>
               <i className="fa fa-map-marker"></i> <strong>Adresse:</strong><br/>
               <p className={classes.subfooter}>

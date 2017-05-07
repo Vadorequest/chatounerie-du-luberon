@@ -12,7 +12,7 @@ const styles = {
       textAlign: 'center',
     },
     '& .item': {
-      minHeight: 325,
+      minHeight: 275,
     }
   }
 };

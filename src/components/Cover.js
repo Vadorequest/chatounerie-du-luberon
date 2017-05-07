@@ -33,7 +33,7 @@ const styles = {
   intro: {
     position: 'absolute',
     width: '100%',
-    top: '50%',
+    top: '20%',
     left: 0,
     textAlign: 'center',
     transform: 'translate(0%, -50%)',
