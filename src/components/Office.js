@@ -27,6 +27,8 @@ const Cover = ({classes, screenHeight}) => {
     infiniteLoop: true,
     useKeyboardArrows: true,
     autoPlay: true,
+    stopOnHover: true,
+    interval: 6000,
   };
 
   return (

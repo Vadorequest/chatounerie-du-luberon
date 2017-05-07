@@ -1,15 +1,16 @@
 import React from 'react';
 import { Collapse, Navbar as NavbarStrap, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 import withSheet from 'react-jss';
-// import { StickyContainer, Sticky } from 'react-sticky';
 import Sticky from 'react-stickynode';
-import smoothScroll from 'smoothscroll';
 import classNames from 'classnames';
+
+import { scrollTo } from './../utils/helpers';
 
 export const styles = {
   navbar: {
     backgroundColor: 'white',
-    minHeight: 55,
+    minHeight: 56,
+    // height: 56, // XXX Can't set an height or it won't work in mobile mode when clicking on the dropdown button
 
   },
   navLinks: {
@@ -48,22 +49,22 @@ class Navbar extends React.Component {
             <Collapse isOpen={this.state.isOpen} onClick={this.toggle} navbar>
               <Nav className={classNames("ml-auto", classes.navLinks)} navbar>
                 <NavItem>
-                  <NavLink onClick={() => smoothScroll(document.querySelector('#home'))}>Accueil</NavLink>
+                  <NavLink onClick={() => scrollTo('#home')}>Accueil</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink onClick={() => smoothScroll(document.querySelector('#chatounerie'))}>La Chatounerie</NavLink>
+                  <NavLink onClick={() => scrollTo('#chatounerie')}>La Chatounerie</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink onClick={() => smoothScroll(document.querySelector('#office'))}>Nos installations</NavLink>
+                  <NavLink onClick={() => scrollTo('#office')}>Nos installations</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink onClick={() => smoothScroll(document.querySelector('#services'))}>Prestations et services</NavLink>
+                  <NavLink onClick={() => scrollTo('#services')}>Prestations et services</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink onClick={() => smoothScroll(document.querySelector('#customers'))}>Ils nous recommandent</NavLink>
+                  <NavLink onClick={() => scrollTo('#customers')}>Ils nous recommandent</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink onClick={() => smoothScroll(document.querySelector('#contact'))}>Nous contacter</NavLink>
+                  <NavLink onClick={() => scrollTo('#contact')}>Nous contacter</NavLink>
                 </NavItem>
               </Nav>
             </Collapse>

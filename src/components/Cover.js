@@ -1,9 +1,8 @@
 import React from 'react';
 import withSheet from 'react-jss';
-import smoothScroll from 'smoothscroll';
 import classNames from 'classnames';
 
-import { randomInt } from '../utils/helpers';
+import { randomInt, scrollTo } from '../utils/helpers';
 import overlayPatternImage from '../../public/images/overlay_pattern.png';
 
 const coverImage = `../../images/covers/cover${randomInt(1, 5)}.jpg`;
@@ -92,7 +91,7 @@ const Cover = ({classes, screenWidth, screenHeight}) => {
       </div>
 
       <a
-        onClick={() => smoothScroll(document.querySelector('#navbar'))}
+        onClick={() => scrollTo('#chatounerie')}
         className={classNames(classes.scrollDown, 'pointer')}
       >
         <span>
