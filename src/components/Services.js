@@ -1,6 +1,5 @@
 import React from 'react';
 import withSheet from 'react-jss';
-import classNames from 'classnames';
 import {
   Card, Button, Col, Row, CardText, CardBlock,
   CardTitle, Jumbotron

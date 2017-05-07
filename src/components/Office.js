@@ -1,6 +1,5 @@
 import React from 'react';
 import withSheet from 'react-jss';
-import classNames from 'classnames';
 import { Carousel } from 'react-responsive-carousel';
 
 import { styles as NavbarStyles } from './Navbar';
@@ -43,6 +42,7 @@ const Cover = ({classes, screenHeight}) => {
           <img
             src="../../images/office/office1.jpg"
             height={maxImageHeight}
+            alt="La Chatounerie, vue de l'extérieur"
           />
           <p className="legend">La Chatounerie, vue de l'extérieur</p>
         </div>
@@ -50,6 +50,7 @@ const Cover = ({classes, screenHeight}) => {
           <img
             src="../../images/office/office2.jpg"
             height={maxImageHeight}
+            alt="Notre arbre à chats, tant convoité"
           />
           <p className="legend">Notre arbre à chats, tant convoité</p>
         </div>
@@ -57,6 +58,7 @@ const Cover = ({classes, screenHeight}) => {
           <img
             src="../../images/office/office3.jpg"
             height={maxImageHeight}
+            alt="Chatounerie vue de l'intérieur (droite porte d'entrée)"
           />
           <p className="legend">Chatounerie vue de l'intérieur (droite porte d'entrée)</p>
         </div>
@@ -64,6 +66,7 @@ const Cover = ({classes, screenHeight}) => {
           <img
             src="../../images/office/office4.jpg"
             height={maxImageHeight}
+            alt="Chatounerie vue de l'intérieur (gauche porte d'entrée"
           />
           <p className="legend">Chatounerie vue de l'intérieur (gauche porte d'entrée)</p>
         </div>
