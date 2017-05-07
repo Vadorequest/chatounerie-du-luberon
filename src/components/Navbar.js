@@ -6,9 +6,11 @@ import Sticky from 'react-stickynode';
 import smoothScroll from 'smoothscroll';
 import classNames from 'classnames';
 
-const styles = {
+export const styles = {
   navbar: {
     backgroundColor: 'white',
+    minHeight: 55,
+
   },
   navLinks: {
     '& li': {
@@ -21,16 +23,19 @@ class Navbar extends React.Component {
   constructor(props) {
     super(props);
 
-    this.toggle = this.toggle.bind(this);
     this.state = {
       isOpen: false
     };
+
+    this.toggle = this.toggle.bind(this);
   }
+
   toggle() {
     this.setState({
       isOpen: !this.state.isOpen
     });
   }
+
   render() {
     const { classes } = this.props;
 
@@ -40,7 +45,7 @@ class Navbar extends React.Component {
           <NavbarStrap className={classes.navbar} light toggleable>
             <NavbarToggler right onClick={this.toggle} />
             <NavbarBrand href="/">La Chatounerie du Lubéron</NavbarBrand>
-            <Collapse isOpen={this.state.isOpen} navbar>
+            <Collapse isOpen={this.state.isOpen} onClick={this.toggle} navbar>
               <Nav className={classNames("ml-auto", classes.navLinks)} navbar>
                 <NavItem>
                   <NavLink onClick={() => smoothScroll(document.querySelector('#home'))}>Accueil</NavLink>

@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Cover from '../components/Cover';
 import Navbar from '../components/Navbar';
 import Chatounerie from '../components/Chatounerie';
+import Office from '../components/Office';
 import Footer from '../components/Footer';
 
 class App extends Component {
@@ -41,6 +42,9 @@ class App extends Component {
         />
         <Navbar />
         <Chatounerie />
+        <Office
+          screenHeight={this.state.screenHeight}
+        />
         <Footer />
       </div>
     );
