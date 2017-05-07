@@ -23,12 +23,12 @@ const styles = {
       image: `url(${overlayPatternImage})`,
       repeat: `repeat`,
     },
-    height: '100%',
     left: 0,
     position: 'absolute',
     top: 0,
     width: '100%',
     zIndex: 0,
+    height: '100vh',
   },
   intro: {
     position: 'absolute',
