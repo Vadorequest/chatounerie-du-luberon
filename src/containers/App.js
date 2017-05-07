@@ -4,6 +4,7 @@ import Cover from '../components/Cover';
 import Navbar from '../components/Navbar';
 import Chatounerie from '../components/Chatounerie';
 import Office from '../components/Office';
+import Services from '../components/Services';
 import Footer from '../components/Footer';
 
 class App extends Component {
@@ -37,7 +38,6 @@ class App extends Component {
     return (
       <div className="App">
         <Cover
-          screenWidth={this.state.screenWidth}
           screenHeight={this.state.screenHeight}
         />
         <Navbar />
@@ -45,6 +45,7 @@ class App extends Component {
         <Office
           screenHeight={this.state.screenHeight}
         />
+        <Services />
         <Footer />
       </div>
     );

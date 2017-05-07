@@ -14,3 +14,7 @@ body {
 .pointer {
   cursor: pointer;
 }
+
+.btn {
+  cursor: pointer;
+}

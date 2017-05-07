@@ -71,7 +71,7 @@ const styles = {
   }
 };
 
-const Cover = ({classes, screenWidth, screenHeight}) => {
+const Cover = ({classes, screenHeight}) => {
   return (
     <section
       id="home"

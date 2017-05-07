@@ -1,7 +1,9 @@
 import React from 'react';
 import withSheet from 'react-jss';
-import { Card, CardImg, Col, Row, CardText, CardBlock,
-  CardTitle, Jumbotron } from 'reactstrap';
+import {
+  Card, CardImg, Col, Row, CardText, CardBlock,
+  CardTitle, Jumbotron
+} from 'reactstrap';
 
 const styles = {
   container: {
