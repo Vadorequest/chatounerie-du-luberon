@@ -36,7 +36,7 @@ class Navbar extends React.Component {
 
     return (
       <div id="navbar">
-        <Sticky enabled>
+        <Sticky innerZ={10} enabled>
           <NavbarStrap className={classes.navbar} light toggleable>
             <NavbarToggler right onClick={this.toggle} />
             <NavbarBrand href="/">La Chatounerie du Lubéron</NavbarBrand>
