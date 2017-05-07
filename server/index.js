@@ -20,6 +20,15 @@ server.route({
   }
 });
 
+server.route({
+  method: 'GET',
+  path:'/',
+  handler: function (request, reply) {
+
+    return reply('hello world');
+  }
+});
+
 server.register({
     register: Good,
     options: {
