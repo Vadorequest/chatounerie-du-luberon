@@ -19,32 +19,32 @@ const styles = {
 
 const Footer = ({classes}) => {
   return (
-    <section className={classNames(classes.footer, 'pt-3')}>
+    <section className={classNames(classes.footer, 'pt-4', 'pb-4')}>
       <Container>
         <Row>
           <Col xs={{offset: 3}}>
-            <p>
+            <div>
               <i className="fa fa-map-marker"></i> <strong>Adresse:</strong><br/>
               <p className={classes.subfooter}>
                 La Chatounerie<br/>
                 899 Chemin du Moulin D'Oise<br/>
                 84440 Robion - FRANCE
               </p>
-            </p>
-            <p>
+            </div>
+            <div>
               <i className="fa fa-phone"></i> <strong>Portable :</strong> 06 73 51 77 04<br/>
               <i className="fa fa-envelope-o"></i> <strong>Email :</strong> vauclusechatounerie@gmail.com
-            </p>
+            </div>
           </Col>
           <Col>
-            <p>
+            <div>
               <i className="fa fa-address-card-o"></i> <strong>Identification éleveur professionel:</strong><br/>
               <p className={classes.subfooter}>
                 Certificat de capacité N°C2660<br/>
                 CETAC N°84 115<br/>
                 N° Siret 43875234700031​
               </p>
-            </p>
+            </div>
           </Col>
         </Row>
       </Container>
