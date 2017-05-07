@@ -8,8 +8,13 @@ const { navbar: { minHeight } } = NavbarStyles;
 
 const styles = {
   container: {
-    // maxHeight: '200vh',
-    // height: '200vh',
+    '& img': {
+      objectFit: 'cover',
+    },
+
+    '& .legend': {
+      fontSize: '20px !important',
+    }
   },
 };
 
@@ -18,7 +23,6 @@ const Cover = ({classes, screenHeight}) => {
   const settings = {
     showThumbs: false,
     showArrows: true,
-    // dynamicHeight: true,
     emulateTouch: true,
     infiniteLoop: true,
     useKeyboardArrows: true,
@@ -35,24 +39,31 @@ const Cover = ({classes, screenHeight}) => {
       >
         <div>
           <img
-            src="../../images/carousel/carousel1.jpg"
+            src="../../images/office/office1.jpg"
             height={maxImageHeight}
           />
-          <p className="legend">Legend 1</p>
+          <p className="legend">La Chatounerie, vue de l'extérieur</p>
         </div>
         <div>
           <img
-            src="../../images/carousel/carousel2.jpg"
+            src="../../images/office/office2.jpg"
             height={maxImageHeight}
           />
-          <p className="legend">Legend 2</p>
+          <p className="legend">Notre arbre à chats, tant convoité</p>
         </div>
         <div>
           <img
-            src="../../images/carousel/carousel3.jpg"
+            src="../../images/office/office3.jpg"
             height={maxImageHeight}
           />
-          <p className="legend">Legend 3</p>
+          <p className="legend">Chatounerie vue de l'intérieur (droite porte d'entrée)</p>
+        </div>
+        <div>
+          <img
+            src="../../images/office/office4.jpg"
+            height={maxImageHeight}
+          />
+          <p className="legend">Chatounerie vue de l'intérieur (gauche porte d'entrée)</p>
         </div>
       </Carousel>
     </section>
