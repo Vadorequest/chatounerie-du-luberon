@@ -15,9 +15,6 @@ const styles = {
       textAlign: 'center',
     },
   },
-  btnCGU: {
-    float: 'right',
-  },
 };
 
 const Services = ({classes}) => {
@@ -29,11 +26,14 @@ const Services = ({classes}) => {
       <Jumbotron style={{ paddingBottom: 'none' }}>
         <Card className="mb-3">
           <CardBlock>
-            <CardTitle>Prestations et Services <Button className={classes.btnCGU} color="info">Voir nos Conditions</Button></CardTitle>
+            <CardTitle>Prestations et Services </CardTitle>
             <CardText>
               <br/>
-              ​​Notre Chatounerie est un lieu convivial qui permettra à votre chat de séjourner agréablement en attendant votre retour.
-              Il pourra y recevoir les caresses et les  soins nécéssaires dont il a besoin et ce, avec attention.
+              ​​Notre Chatounerie est un lieu convivial qui permettra à votre chat de séjourner agréablement en attendant votre retour.<br/>
+              Il pourra y recevoir les caresses et les  soins nécéssaires dont il a besoin et ce, avec attention.<br/>
+              <p style={{textAlign: 'right'}}>
+                Veuillez <strong>consulter</strong> nos <Button color="info">Conditions d'Hébergement</Button>
+              </p>
             </CardText>
           </CardBlock>
         </Card>

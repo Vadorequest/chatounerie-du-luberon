@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar';
 import Chatounerie from '../components/Chatounerie';
 import Office from '../components/Office';
 import Services from '../components/Services';
+import Prices from '../components/Prices';
 import Footer from '../components/Footer';
 
 class App extends Component {
@@ -46,6 +47,7 @@ class App extends Component {
           screenHeight={this.state.screenHeight}
         />
         <Services />
+        <Prices />
         <Footer />
       </div>
     );

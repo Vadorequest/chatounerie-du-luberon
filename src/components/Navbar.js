@@ -55,13 +55,13 @@ class Navbar extends React.Component {
                   <NavLink onClick={() => scrollTo('#chatounerie')}>La Chatounerie</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink onClick={() => scrollTo('#office')}>Nos installations</NavLink>
-                </NavItem>
-                <NavItem>
                   <NavLink onClick={() => scrollTo('#services')}>Prestations et services</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink onClick={() => scrollTo('#customers')}>Ils nous recommandent</NavLink>
+                  <NavLink onClick={() => scrollTo('#prices')}>Tarifs</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink onClick={() => scrollTo('#testimonials')}>Témoignages</NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink onClick={() => scrollTo('#contact')}>Nous contacter</NavLink>
