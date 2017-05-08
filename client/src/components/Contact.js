@@ -32,7 +32,7 @@ const sendForm = () => {
       }
 
       document.querySelector('#formContact').reset();
-      return toast.success(response.message);
+      return toast.success(response.message, { autoClose: 10000 });
     })
     .catch((err) => {
       toast.error(err.message);
