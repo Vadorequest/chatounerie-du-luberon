@@ -1,0 +1,9 @@
+{
+  "name": "chatounerie-du-luberon",
+  "scripts": {
+    "dev": "concurrently --kill-others \"nodemon server/index.js\" \"cd client && npm start && cd ..\""
+  },
+  "devDependencies": {
+    "concurrently": "3.4.0"
+  }
+}
