@@ -21,7 +21,7 @@ const config = require('./config.json');
 // Create a server with a host and port
 const server = new Hapi.Server();
 server.connection({
-  host: process.env.HOST || 'localhost',
+  host: process.env.HOST || config.host,
   port: process.env.PORT || config.port,
 });
 
@@ -114,6 +114,7 @@ server.register([
     }
   });
 
+  // XXX This route serves all assets in the build folder. (Ofc, the build folder should be generated before the server starts
   server.route({
     method: 'GET',
     path: '/{path*}',
