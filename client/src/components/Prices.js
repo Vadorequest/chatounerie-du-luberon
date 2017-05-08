@@ -43,7 +43,7 @@ class Prices extends Component {
       >
         <Card className={classNames('mb-3')}>
           <CardBlock className="bg-faded">
-            <Card className="mb-3">
+            <Card className="mb-5 mt-5">
               <CardBlock>
                 <CardTitle>Tarification et fonctionnement</CardTitle>
                 <CardText>

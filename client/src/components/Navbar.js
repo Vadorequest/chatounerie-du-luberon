@@ -55,6 +55,9 @@ class Navbar extends React.Component {
                   <NavLink onClick={() => scrollTo('#services')}>Prestations et services</NavLink>
                 </NavItem>
                 <NavItem>
+                  <NavLink onClick={() => scrollTo('#galery')}>Galerie</NavLink>
+                </NavItem>
+                <NavItem>
                   <NavLink onClick={() => scrollTo('#prices')}>Tarifs</NavLink>
                 </NavItem>
                 {/*<NavItem>*/}

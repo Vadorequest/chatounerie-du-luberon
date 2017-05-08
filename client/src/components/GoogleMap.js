@@ -32,7 +32,12 @@ const Marker = ({ text }) => (
     <div style={{
 
     }}>
-      <i className="fa fa-map-marker fa-2x" style={{color: 'red', opacity: 0.85}} />
+      <i className="fa fa-map-marker fa-2x" style={{
+        color: 'red',
+        opacity: 0.85,
+        position: 'absolute',
+        bottom: 5
+      }} />
     </div>
 
   </div>
