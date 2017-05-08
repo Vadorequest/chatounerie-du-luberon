@@ -6,6 +6,7 @@ import Chatounerie from '../components/Chatounerie';
 import Office from '../components/Office';
 import Services from '../components/Services';
 import Prices from '../components/Prices';
+import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
 class App extends Component {
@@ -48,6 +49,7 @@ class App extends Component {
         />
         <Services />
         <Prices />
+        <Contact />
         <Footer />
       </div>
     );

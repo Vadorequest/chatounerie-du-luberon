@@ -29,10 +29,10 @@ const Services = ({classes}) => {
             <CardText>
               <br/>
               ​​Notre Chatounerie est un lieu convivial qui permettra à votre chat de séjourner agréablement en attendant votre retour.<br/>
-              Il pourra y recevoir les caresses et les  soins nécéssaires dont il a besoin et ce, avec attention.<br/>
-              <p style={{textAlign: 'right'}}>
+              Il pourra y recevoir les caresses et les  soins nécéssaires dont il a besoin et ce, avec attention.<br/><br/>
+              <div style={{textAlign: 'right'}}>
                 Veuillez <strong>consulter</strong> nos <Button color="info">Conditions d'Hébergement</Button>
-              </p>
+              </div>
             </CardText>
           </CardBlock>
         </Card>

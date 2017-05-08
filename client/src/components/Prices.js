@@ -39,7 +39,7 @@ class Prices extends Component {
     return (
       <section
         id="prices"
-        className={classes.container}
+        className={classNames(classes.container)}
       >
         <Card className={classNames('mb-3')}>
           <CardBlock className="bg-faded">
