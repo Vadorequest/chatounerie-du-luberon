@@ -44,7 +44,7 @@ class GoogleMap extends Component {
       lat: 43.8609491,
       lng: 5.1310694
     },
-    zoom: 13,
+    zoom: 10,
     label: 'La Chatounerie',
   };
 
