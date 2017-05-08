@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar';
 import Chatounerie from '../components/Chatounerie';
 import Office from '../components/Office';
 import Services from '../components/Services';
+import Galery from '../components/Galery';
 import Prices from '../components/Prices';
 import Contact from '../components/Contact';
 import GoogleMap from '../components/GoogleMap';
@@ -50,6 +51,9 @@ class App extends Component {
           screenHeight={this.state.screenHeight}
         />
         <Services />
+        <Galery
+          screenHeight={this.state.screenHeight}
+        />
         <Prices />
         <Contact />
         <GoogleMap />

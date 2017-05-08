@@ -6,6 +6,7 @@
     "bootstrap": "4.0.0-alpha.6",
     "classnames": "2.2.5",
     "google-map-react": "0.24.0",
+    "lodash.times": "4.3.2",
     "react": "15.5.4",
     "react-addons-css-transition-group": "15.5.2",
     "react-addons-transition-group": "15.5.2",
