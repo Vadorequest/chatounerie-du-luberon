@@ -6,6 +6,7 @@ const Joi = require('joi');
 const Boom = require('boom');
 const email = require("emailjs");
 const Path = require('path');
+const merge = require('lodash.merge');
 // XXX Relish allows to customize Hapi errors for front-end friendly error messages. See https://github.com/dialexa/relish
 const Relish = require('relish')({
   messages: {
@@ -16,7 +17,8 @@ const Relish = require('relish')({
   }
 });
 
-const config = require('./config.json');
+// Load both public config and private config and merge them.
+const config = merge({}, require('./config.json'), require('./config-secret.json'));
 
 // Create a server with a host and port
 const server = new Hapi.Server();
@@ -75,7 +77,7 @@ server.register([
                          </p>
                          <hr/>
                          <p>
-                             "${payload.message}"
+                             "${payload.message.replace(/\r?\n/g, '<br />')}"
                          </p>
                          <hr/>
                          <p>
@@ -88,7 +90,7 @@ server.register([
           },
         ],
       }, function(err, message) {
-        console.log(message);
+        console.log(message); // XXX For debug and logs.
         if(err) {
           Boom.badRequest(err);
         }

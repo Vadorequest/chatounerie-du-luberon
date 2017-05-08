@@ -1,0 +1,14 @@
+{
+  "email": {
+    "provider": {
+      "user": null,
+      "password": null,
+      "host": "SSL0.OVH.NET",
+      "ssl": true
+    },
+    "to": null,
+    "cc": null
+  },
+  "port": 5000,
+  "host": "localhost"
+}
