@@ -46,7 +46,7 @@ const Contact = ({classes}) => {
       className={classNames(classes.container, 'pb-3')}
     >
       <Container>
-        <h2>Nous contacter</h2>
+        <h2 className="mb-3">Nous contacter</h2>
 
         <Row>
           <Col xs="12" xl="6">
@@ -92,6 +92,9 @@ const Contact = ({classes}) => {
                 </li>
                 <li>
                   <strong>Email:</strong> <a href="mailto:vauclusechatounerie@gmail.com?subject=[Chatounerie] Demande de renseignements&body=Bonjour,">vauclusechatounerie@gmail.com</a>
+                </li>
+                <li>
+                  <strong>Adresse:</strong> 899 Chemin du Moulin D'Oise, 84440 Robion
                 </li>
               </ul>
             </Alert>

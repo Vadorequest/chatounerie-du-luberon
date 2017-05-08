@@ -49,10 +49,7 @@ class Navbar extends React.Component {
             <Collapse isOpen={this.state.isOpen} onClick={this.toggle} navbar>
               <Nav className={classNames("ml-auto", classes.navLinks)} navbar>
                 <NavItem>
-                  <NavLink onClick={() => scrollTo('#home')}>Accueil</NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink onClick={() => scrollTo('#chatounerie')}>La Chatounerie</NavLink>
+                  <NavLink onClick={() => scrollTo('#chatounerie')}>Chatounerie</NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink onClick={() => scrollTo('#services')}>Prestations et services</NavLink>
@@ -60,9 +57,9 @@ class Navbar extends React.Component {
                 <NavItem>
                   <NavLink onClick={() => scrollTo('#prices')}>Tarifs</NavLink>
                 </NavItem>
-                <NavItem>
-                  <NavLink onClick={() => scrollTo('#testimonials')}>Témoignages</NavLink>
-                </NavItem>
+                {/*<NavItem>*/}
+                  {/*<NavLink onClick={() => scrollTo('#testimonials')}>Témoignages</NavLink>*/}
+                {/*</NavItem>*/}
                 <NavItem>
                   <NavLink onClick={() => scrollTo('#contact')}>Nous contacter</NavLink>
                 </NavItem>
