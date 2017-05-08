@@ -32,7 +32,7 @@ const sendForm = () => {
       }
 
       document.querySelector('#formContact').reset();
-      return toast.error(response.message);
+      return toast.success(response.message);
     })
     .catch((err) => {
       toast.error(err.message);
@@ -85,7 +85,7 @@ const Contact = ({classes}) => {
 
           <Col xs="12" xl="6">
             <Alert color="info">
-              Vous pouvez nous joindre par e-mail ou par téléphone&nbsp;:<br/>
+              Vous pouvez également nous joindre par e-mail ou par téléphone&nbsp;:<br/>
               <ul>
                 <li>
                   <strong>Téléphone:</strong> 06 73 51 77 04

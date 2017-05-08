@@ -5,6 +5,15 @@ const Good = require('good');
 const Joi = require('joi');
 const Boom = require('boom');
 const email = require("emailjs");
+// XXX Relish allows to customize Hapi errors for front-end friendly error messages. See https://github.com/dialexa/relish
+const Relish = require('relish')({
+  messages: {
+    identity: 'Nom et prénom obligatoires',
+    email: 'Email obligatoire',
+    phone: 'Numéro de téléphone obligatoire',
+    message: 'Message obligatoire',
+  }
+});
 
 const config = require('./config.json');
 
@@ -59,12 +68,13 @@ server.route({
         statusCode: err ? 400 : 200,
         message: err
           ? err.message
-          : "Votre demande a bien été envoyée. Nous vous remercions.<br/>Si vous ne deviez pas avoir de réponse sous 3 jours ouvrés, merci de nous contacter par téléphone."
+          : "Votre demande a bien été envoyée. Nous vous remercions.\nSi vous ne deviez pas avoir de réponse sous 3 jours ouvrés, merci de nous contacter par téléphone."
       });
     });
   },
   config: {
     validate: {
+      failAction: Relish.failAction,
       payload: {
         identity: Joi.string().required(),
         email: Joi.string().email().required(),
