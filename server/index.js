@@ -56,7 +56,7 @@ server.route({
       }
 
       return reply({
-        status: !err,
+        statusCode: err ? 400 : 200,
         message: err
           ? err.message
           : "Votre demande a bien été envoyée. Nous vous remercions.<br/>Si vous ne deviez pas avoir de réponse sous 3 jours ouvrés, merci de nous contacter par téléphone."

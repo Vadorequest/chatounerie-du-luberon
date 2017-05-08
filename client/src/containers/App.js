@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { ToastContainer } from 'react-toastify';
 
 import Cover from '../components/Cover';
 import Navbar from '../components/Navbar';
@@ -51,6 +52,8 @@ class App extends Component {
         <Prices />
         <Contact />
         <Footer />
+
+        <ToastContainer />
       </div>
     );
   }

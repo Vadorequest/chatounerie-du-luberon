@@ -2,6 +2,7 @@ import React from 'react';
 import withSheet from 'react-jss';
 import { Button, Form, FormGroup, Label, Input, Col, Container, Alert, Row } from 'reactstrap';
 import classNames from 'classnames';
+import { toast } from 'react-toastify';
 
 const styles = {
   container: {
@@ -22,11 +23,19 @@ const sendForm = () => {
     method: 'POST',
     body: JSON.stringify(payload),
   })
+    .then((body) => {
+      return body.json();
+    })
     .then((response) => {
-      console.log(response)
+      if(response.statusCode !== 200){
+        return toast.error(response.message);
+      }
+
+      document.querySelector('#formContact').reset();
+      return toast.error(response.message);
     })
     .catch((err) => {
-      console.log(err)
+      toast.error(err.message);
     });
 };
 
@@ -41,7 +50,7 @@ const Contact = ({classes}) => {
 
         <Row>
           <Col xs="12" xl="6">
-            <Form>
+            <Form id="formContact">
               <FormGroup row>
                 <Label for="inputIdentity" sm={2}>Nom et prénom</Label>
                 <Col sm={10}>

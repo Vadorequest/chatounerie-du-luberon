@@ -18,3 +18,7 @@ body {
 .btn {
   cursor: pointer;
 }
+
+.toastify {
+  z-index: 11;
+}
