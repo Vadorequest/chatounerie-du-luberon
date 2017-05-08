@@ -6,10 +6,12 @@ import times from 'lodash.times';
 import { styles as NavbarStyles } from './Navbar';
 const { navbar: { minHeight } } = NavbarStyles;
 
+/* eslint-disable jsx-a11y/img-redundant-alt */
+
 const styles = {
   container: {
     '& img': {
-      objectFit: 'contain',
+      objectFit: 'cover',
     },
 
     '& .legend': {

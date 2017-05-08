@@ -16,7 +16,7 @@ const styles = {
   },
 };
 
-const Services = ({classes}) => {
+const Services = ({classes, toggleConditionsModal}) => {
   return (
     <section
       id="services"
@@ -31,7 +31,7 @@ const Services = ({classes}) => {
               ​​Notre Chatounerie est un lieu convivial qui permettra à votre chat de séjourner agréablement en attendant votre retour.<br/>
               Il pourra y recevoir les caresses et les  soins nécéssaires dont il a besoin et ce, avec attention.<br/><br/>
               <div style={{textAlign: 'right'}}>
-                Veuillez <strong>consulter</strong> nos <Button color="info">Conditions d'Hébergement</Button>
+                Veuillez <strong>consulter</strong> nos <Button onClick={toggleConditionsModal} color="info">Conditions d'Hébergement</Button>
               </div>
             </CardText>
           </CardBlock>

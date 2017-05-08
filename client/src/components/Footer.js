@@ -17,7 +17,7 @@ const styles = {
   },
 };
 
-const Footer = ({classes}) => {
+const Footer = ({classes, toggleConditionsModal}) => {
   return (
     <section className={classNames(classes.footer, 'pt-4', 'pb-4')}>
       <Container>
@@ -25,11 +25,11 @@ const Footer = ({classes}) => {
           <Col>
             <div>
               <i className="fa fa-map-marker"></i> <strong>Adresse:</strong><br/>
-              <p className={classes.subfooter}>
+              <div className={classes.subfooter}>
                 La Chatounerie<br/>
                 899 Chemin du Moulin D'Oise<br/>
                 84440 Robion - FRANCE
-              </p>
+              </div>
             </div>
             <div>
               <i className="fa fa-phone"></i> <strong>Portable :</strong> 06 73 51 77 04<br/>
@@ -39,11 +39,14 @@ const Footer = ({classes}) => {
           <Col>
             <div>
               <i className="fa fa-address-card-o"></i> <strong>Identification éleveur professionel:</strong><br/>
-              <p className={classes.subfooter}>
+              <div className={classes.subfooter}>
                 Certificat de capacité N°C2660<br/>
                 CETAC N°84 115<br/>
                 N° Siret 43875234700031​
-              </p>
+              </div>
+              <div>
+                <i className="fa fa-book"></i> <a onClick={toggleConditionsModal}>Conditions Générales d'Utilisation</a><br/>
+              </div>
             </div>
           </Col>
         </Row>
