@@ -3,6 +3,8 @@
 const Hapi = require('hapi');
 const Good = require('good');
 
+const config = require('./config.json');
+
 // Create a server with a host and port
 const server = new Hapi.Server();
 server.connection({
@@ -24,6 +26,16 @@ server.route({
   method: 'GET',
   path:'/',
   handler: function (request, reply) {
+    const email = require("emailjs");
+    const server = email.server.connect(config.email);
+
+    server.send({
+       text:    "i hope this works",
+       from:    "you <username@your-email.com>",
+       to:      "<ambroise.dhenain@gmail.com>",
+       // cc:      "else <else@your-email.com>",
+       subject: "testing emailjs"
+    }, function(err, message) { console.log(err || message); });
 
     return reply('hello world');
   }
