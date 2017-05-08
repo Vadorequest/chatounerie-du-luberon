@@ -1,7 +1,8 @@
 {
   "name": "chatounerie-du-luberon",
   "scripts": {
-    "dev": "concurrently --kill-others \"nodemon server/index.js\" \"cd client && npm start && cd ..\""
+    "dev": "concurrently --kill-others \"cd client && npm start && cd ..\" \"cd server && npm run start && cd ..\"",
+    "prod": "concurrently --kill-others \"cd client && npm run build && cd ..\" \"cd server && npm run start && cd ..\""
   },
   "devDependencies": {
     "concurrently": "3.4.0"
