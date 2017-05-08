@@ -43,7 +43,7 @@ server.route({
           data: `<html>
                     <div>
                         <p>
-                          ${payload.identity} vient d'effectuer une demande via le formulaire de contact de chatounerie-du-luberon.com<br/>
+                          ${payload.identity} vient d'effectuer une demande via le formulaire de contact de http://chatounerie-du-luberon.com<br/>
                         </p>
                         <hr/>
                         <p>
@@ -60,6 +60,7 @@ server.route({
         },
       ],
     }, function(err, message) {
+      console.log(message);
       if(err) {
         Boom.badRequest(err);
       }
