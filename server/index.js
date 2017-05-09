@@ -1,10 +1,10 @@
 'use strict';
 
-const Path = require('path');
 const Hapi = require('hapi');
 const Good = require('good');
 const Joi = require('joi');
 const Boom = require('boom');
+const path = require('path');
 const email = require("emailjs");
 const yaml = require('yamljs');
 const merge = require('lodash.merge');
@@ -21,7 +21,7 @@ const Relish = require('relish')({
 const imagesLookup = require('./utils/imagesLookup');
 
 // Load both public config and private config and merge them.
-const config = merge({}, yaml.load('./config.yml'), yaml.load('./config-secret.yml'));
+const config = merge({}, yaml.load(path.join(__dirname, './config.yml')), yaml.load(path.join(__dirname, './config-secret.yml')));
 
 // Create a server with a host and port
 const server = new Hapi.Server();
@@ -125,7 +125,7 @@ server.register([
     path: '/{path*}',
     handler: {
       directory: {
-        path: Path.join(__dirname, '../client/build'),
+        path: path.join(__dirname, '../client/build'),
         listing: false,
         index: true
       }
