@@ -40,35 +40,11 @@ const GaleryOffice = ({classes, screenHeight}) => {
       >
         <div>
           <img
-            src="../../images/office/office1.jpg"
+            src="../../images/galeryOffice/office1.jpg"
             height={maxImageHeight}
             alt="La Chatounerie, vue de l'extérieur"
           />
           <p className="legend">La Chatounerie, vue de l'extérieur</p>
-        </div>
-        <div>
-          <img
-            src="../../images/office/office2.jpg"
-            height={maxImageHeight}
-            alt="Notre arbre à chats, tant convoité"
-          />
-          <p className="legend">Notre arbre à chats, tant convoité</p>
-        </div>
-        <div>
-          <img
-            src="../../images/office/office3.jpg"
-            height={maxImageHeight}
-            alt="Chatounerie vue de l'intérieur (droite porte d'entrée)"
-          />
-          <p className="legend">Chatounerie vue de l'intérieur (droite porte d'entrée)</p>
-        </div>
-        <div>
-          <img
-            src="../../images/office/office4.jpg"
-            height={maxImageHeight}
-            alt="Chatounerie vue de l'intérieur (gauche porte d'entrée"
-          />
-          <p className="legend">Chatounerie vue de l'intérieur (gauche porte d'entrée)</p>
         </div>
       </Carousel>
     </section>
