@@ -44,7 +44,7 @@ const Chatounerie = ({classes}) => {
                 <CardTitle>Éleveur professionnel</CardTitle>
                 <CardText>
                   Grande passionnée d'animaux, cette chatounerie est un lieu confortable pour les chats.<br/>
-                  Je suis diplômée des Cetac "Chats" et "Chiens".
+                  <strong>Diplômée Cetac "Chats" et "Chiens".</strong>
                 </CardText>
               </CardBlock>
             </Card>
@@ -56,7 +56,7 @@ const Chatounerie = ({classes}) => {
               <CardBlock>
                 <CardTitle>Disponibles</CardTitle>
                 <CardText>
-                  Vous redoutez de confier votre animal de compagnie à n'importe qui ? Venez découvrir nos locaux !<br/>
+                  Vous redoutez de confier votre animal de compagnie à n'importe qui ? Venez <strong>découvrir nos locaux</strong> !<br/>
                   Notre pension est ouverte toute l'année du lundi au samedi.<br/>
                 </CardText>
               </CardBlock>
@@ -68,7 +68,7 @@ const Chatounerie = ({classes}) => {
               <CardImg tag="i" className="fa fa-comments-o fa-3x pt-3 icon"></CardImg>
               <CardBlock>
                 <CardTitle>À l'écoute</CardTitle>
-                <CardText>Nous sommes à l'écoute de nos clients et de leurs besoins, et pratiquons des tarifs dégressifs en fonction le nombre d'animaux et la durée de séjour.</CardText>
+                <CardText>Nous sommes <strong>à l'écoute de nos clients et de leurs besoins</strong>, et pratiquons des <strong>tarifs dégressifs</strong> en fonction le nombre d'animaux et la durée de séjour.</CardText>
               </CardBlock>
             </Card>
           </Col>
@@ -78,7 +78,7 @@ const Chatounerie = ({classes}) => {
               <CardImg tag="i" className="fa fa-h-square fa-3x pt-3 icon"></CardImg>
               <CardBlock>
                 <CardTitle>Soins à proximité</CardTitle>
-                <CardText>La clinique vétérinaire est située à 3 minutes de la Chatounerie, ouverte 24/24, 7/7.</CardText>
+                <CardText>La clinique vétérinaire est située à <strong>3 minutes</strong> de la Chatounerie, <strong>ouverte 24/24, 7/7</strong>.</CardText>
               </CardBlock>
             </Card>
           </Col>

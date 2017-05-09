@@ -29,9 +29,9 @@ const Services = ({classes, toggleConditionsModal}) => {
             <CardText tag="div">
               <br/>
               ​​Notre Chatounerie est un lieu convivial qui permettra à votre chat de séjourner agréablement en attendant votre retour.<br/>
-              Il pourra y recevoir les caresses et les  soins nécéssaires dont il a besoin et ce, avec attention.<br/><br/>
+              Il pourra y recevoir les caresses et les soins nécessaires dont il a besoin et ce, avec toute notre attention.<br/><br/>
               <div style={{textAlign: 'right'}}>
-                Veuillez <strong>consulter</strong> nos <Button onClick={toggleConditionsModal} color="info">Conditions d'Hébergement</Button>
+                Veuillez <strong>consulter</strong> nos <Button onClick={toggleConditionsModal} color="info">Conditions Générales d'Utilisation</Button>
               </div>
             </CardText>
           </CardBlock>
@@ -69,10 +69,12 @@ const Services = ({classes, toggleConditionsModal}) => {
                 <CardText tag="div">
                   <ul>
                     <li>
-                      ​Afin de leur offrir le loisir de se détendre, de courir, de sauter et de jouer avec les éléments naturels, les chats ont la possibilité (les jours de beau temps) d'accéder à la chatterie extérieure qui est équipée de plateformes, de troncs d'arbre, et de poutres, ainsi ils peuvent à loisir profiter du grand air, observer insectes et papillons et écouter le chant des oiseaux et les cigales en été.
+                      ​Afin de leur offrir le loisir de se détendre, de courir, de sauter et de jouer avec les éléments naturels, les chats ont la possibilité (les jours de beau temps) d'accéder à la chatterie extérieure qui est équipée de plateformes, de troncs d'arbres, et de poutres.
+                      Ainsi ils peuvent à loisir profiter du grand air, observer insectes et papillons et écouter le chant des oiseaux et des cigales en été.
                     </li>
                     <li>
-                      Même le chat qui n'a pas l'habitude d'être en compagnie de ses congénères, se comportera différemment à la Chatounerie car il n'a pas de territoire à défendre, n'étant pas chez lui, il deviendra plus sociable. C'est pour cette raison que nous ne pourrons accepter les effets personnels de vos chatounets.
+                      Même le chat qui n'a pas l'habitude d'être en compagnie de ses congénères se comportera différemment à la Chatounerie, car, n'étant pas chez lui, il n'a pas de territoire à défendre et deviendra donc plus sociable.
+                      C'est pour cette raison que nous ne pourrons pas accepter les effets personnels de vos chatounets.
                     </li>
                     <li>
                       Nous demanderons à votre chat de rester courtois et poli (nous ne sommes pas équipés pour l'accueil des chats associaux).
@@ -92,10 +94,12 @@ const Services = ({classes, toggleConditionsModal}) => {
                 <CardText tag="div">
                   <ul>
                     <li>
-                      L'alimentation que nous avons choisie pour nos fins gourmets est réputée être de qualité. Nous avons opté pour des croquettes Royal Canin, sensible 33, pour permettre même aux plus délicats une bonne digestion.
+                      L'alimentation que nous avons choisie pour nos fins gourmets est réputée être de qualité.
+                      Nous avons opté pour des croquettes Royal Canin, sensible 33, pour permettre une bonne digestion, même pour les plus délicats.
                     </li>
                     <li>
                       Dans nos tarifs, la pension, la nourriture, la litière, les soins de base ainsi que l'administration de médicaments sur ordonnance sont compris.
+                      <small>(Il n'y a pas de supplément <i>"caché"</i></small>
                     </li>
                   </ul>
                 </CardText>
