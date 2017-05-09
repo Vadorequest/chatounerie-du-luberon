@@ -34,6 +34,32 @@ const lookupGalleryOffice = (config) => {
     });
 };
 
+const lookupGalleryCats = (config) => {
+  const picturesInConfig = config.galleryCats.items;
+  const folderPath = path.join(imagesPath, 'galleryCats');
+  return readdir(folderPath)
+    .then(picturesInFolder => {
+      const pictures = [];
+
+      // For every file in the folder, find existing config for this file or create it.
+      picturesInFolder.forEach(pic => {
+        const existingConfigPicture = find(picturesInConfig, { filename: pic }) || { filename: pic };
+
+        pictures.push(existingConfigPicture);
+      });
+
+      // Update the given config.
+      config.galleryCats.items = pictures;
+
+      return config;
+    })
+    .catch(err => {
+      console.error(err);
+      return config;
+    });
+};
+
 module.exports = {
   lookupGalleryOffice,
+  lookupGalleryCats
 };

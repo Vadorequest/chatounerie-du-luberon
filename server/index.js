@@ -138,9 +138,12 @@ server.register([
     handler: function (request, reply) {
       let clientConfig = config.client;
 
-      imagesLookup.lookupGalleryOffice(clientConfig)
+      Promise.all([
+        imagesLookup.lookupGalleryOffice(clientConfig),
+        imagesLookup.lookupGalleryCats(clientConfig)
+      ])
         .then(dynamicConfig => {
-          return reply(dynamicConfig);
+          return reply(Object.assign({}, ...dynamicConfig));
         }).catch(err => {
           console.err(err);
           return reply(clientConfig); // Fallback
