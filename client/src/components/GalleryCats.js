@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
 import withSheet from 'react-jss';
 import { Carousel } from 'react-responsive-carousel';
+import times from 'lodash.times';
 
 import { styles as NavbarStyles } from './Navbar';
 const { navbar: { minHeight } } = NavbarStyles;
+
+/* eslint-disable jsx-a11y/img-redundant-alt */
 
 const styles = {
   container: {
@@ -17,7 +20,8 @@ const styles = {
   },
 };
 
-const GaleryOffice = ({classes, screenHeight}) => {
+const GalleryCats = ({classes, screenHeight, config}) => {
+  const imagesCount = 18;
   const maxImageHeight = screenHeight - minHeight;
   const settings = {
     showThumbs: false,
@@ -27,28 +31,36 @@ const GaleryOffice = ({classes, screenHeight}) => {
     useKeyboardArrows: true,
     autoPlay: true,
     stopOnHover: true,
-    interval: 6000,
+    interval: 3000,
   };
 
   return (
     <section
-      id="galeryOffice"
+      id="galeryCats"
       className={classes.container}
     >
       <Carousel
         {...settings}
       >
-        <div>
-          <img
-            src="../../images/galeryOffice/office1.jpg"
-            height={maxImageHeight}
-            alt="La Chatounerie, vue de l'extérieur"
-          />
-          <p className="legend">La Chatounerie, vue de l'extérieur</p>
-        </div>
+        {
+          times(imagesCount, (i) => (
+            <div key={i}>
+              <img
+                src={`../../images/galleryCats/galery${i+1}.jpg`}
+                height={maxImageHeight}
+                alt={`Gallery image ${i+1}`}
+              />
+            </div>
+          ))
+        }
       </Carousel>
     </section>
   );
 };
 
-export default withSheet(styles)(GaleryOffice);
+GalleryCats.propTypes = {
+  screenHeight: PropTypes.number.isRequired,
+  config: PropTypes.object.isRequired,
+};
+
+export default withSheet(styles)(GalleryCats);

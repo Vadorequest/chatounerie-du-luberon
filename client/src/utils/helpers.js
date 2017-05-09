@@ -33,7 +33,7 @@ export const getPosition = (el) => {
 };
 
 export const scrollTo = (target) => {
-  const { navbar: { minHeight: minNavbarHeight } } = NavbarStyles;
+  const { navbar: { minHeight: minNavbarHeight } } = NavbarStyles; // eslint-disable-line no-unused-vars
   const $target = document.querySelector(target);
   // const $targetPos = getPosition($target);
 

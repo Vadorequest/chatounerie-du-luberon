@@ -18,6 +18,8 @@ const Relish = require('relish')({
   }
 });
 
+const imagesLookup = require('./utils/imagesLookup');
+
 // Load both public config and private config and merge them.
 const config = merge({}, yaml.load('./config.yml'), yaml.load('./config-secret.yml'));
 
@@ -134,7 +136,16 @@ server.register([
     method: 'GET',
     path: '/config',
     handler: function (request, reply) {
-      return reply(config.client);
+      let clientConfig = config.client;
+
+      imagesLookup.lookupGalleryOffice(clientConfig)
+        .then(dynamicConfig => {
+          return reply(dynamicConfig);
+        }).catch(err => {
+          console.err(err);
+          return reply(clientConfig); // Fallback
+        }
+      );
     }
   });
 

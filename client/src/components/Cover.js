@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
 import withSheet from 'react-jss';
 import classNames from 'classnames';
 
@@ -71,7 +71,7 @@ const styles = {
   }
 };
 
-const Cover = ({classes, screenHeight}) => {
+const Cover = ({classes, screenHeight, config}) => {
   return (
     <section
       id="home"
@@ -100,6 +100,11 @@ const Cover = ({classes, screenHeight}) => {
       </a>
     </section>
   );
+};
+
+Cover.propTypes = {
+  screenHeight: PropTypes.number.isRequired,
+  config: PropTypes.object.isRequired,
 };
 
 export default withSheet(styles)(Cover);

@@ -10,9 +10,9 @@ import {
 import Cover from '../components/Cover';
 import Navbar from '../components/Navbar';
 import Chatounerie from '../components/Chatounerie';
-import GaleryOffice from '../components/GaleryOffice';
+import GalleryOffice from '../components/GalleryOffice';
 import Services from '../components/Services';
-import GaleryCats from '../components/GaleryCats';
+import GalleryCats from '../components/GalleryCats';
 import Prices from '../components/Prices';
 import Contact from '../components/Contact';
 import GoogleMap from '../components/GoogleMap';
@@ -75,21 +75,26 @@ class App extends Component {
   }
 
   renderApp() {
+    const config = this.state.config;
+
     return (
       <div className="app">
         <Cover
           screenHeight={this.state.screenHeight}
+          config={config}
         />
         <Navbar />
         <Chatounerie />
-        <GaleryOffice
+        <GalleryOffice
           screenHeight={this.state.screenHeight}
+          config={config}
         />
         <Services
           toggleConditionsModal={this.toggleConditionsModal}
         />
-        <GaleryCats
+        <GalleryCats
           screenHeight={this.state.screenHeight}
+          config={config}
         />
         <Prices />
         <Contact />
@@ -269,7 +274,7 @@ class App extends Component {
 
   renderSpinner() {
     return (
-      <div class="app-waiting" style={{
+      <div className="app-waiting" style={{
         textAlign: 'center',
         marginTop: '45vh',
       }}>
