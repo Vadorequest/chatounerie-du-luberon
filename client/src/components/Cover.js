@@ -5,13 +5,10 @@ import classNames from 'classnames';
 import { randomInt, scrollTo } from '../utils/helpers';
 import overlayPatternImage from '../../public/images/overlay_pattern.png';
 
-const coverImage = `../../images/covers/cover${randomInt(1, 5)}.jpg`;
-
 const styles = {
   container: {
     background: {
-      image: `url(${coverImage})`,
-      attachment: 'fixed',
+      attachment: 'fixed', // XXX Image is chosen randomly based on the available covers.
       size: 'cover',
     },
     padding: 0,
@@ -72,11 +69,19 @@ const styles = {
 };
 
 const Cover = ({classes, screenHeight, config}) => {
+  const coversPath = '../../images/covers/';
+  const covers = config.covers.items;
+  const coversLength = covers.length - 1;
+  const selectedCoverUrl = coversPath + covers[randomInt(0, coversLength)].filename;
+
   return (
     <section
       id="home"
       className={classes.container}
-      style={{ height: screenHeight }}
+      style={{
+        height: screenHeight,
+        backgroundImage: `url(${selectedCoverUrl})`,
+      }}
     >
       <div className={classes.overlay} />
 

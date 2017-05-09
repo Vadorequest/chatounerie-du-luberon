@@ -1,10 +1,11 @@
 import React, { PropTypes } from 'react';
 import withSheet from 'react-jss';
 import { Carousel } from 'react-responsive-carousel';
-import times from 'lodash.times';
 
 import { styles as NavbarStyles } from './Navbar';
 const { navbar: { minHeight } } = NavbarStyles;
+
+import GalleryItem from './GalleryItem';
 
 /* eslint-disable jsx-a11y/img-redundant-alt */
 
@@ -21,7 +22,6 @@ const styles = {
 };
 
 const GalleryCats = ({classes, screenHeight, config}) => {
-  const imagesCount = 18;
   const maxImageHeight = screenHeight - minHeight;
   const settings = {
     showThumbs: false,
@@ -43,14 +43,13 @@ const GalleryCats = ({classes, screenHeight, config}) => {
         {...settings}
       >
         {
-          times(imagesCount, (i) => (
-            <div key={i}>
-              <img
-                src={`../../images/galleryCats/galery${i+1}.jpg`}
-                height={maxImageHeight}
-                alt={`Gallery image ${i+1}`}
-              />
-            </div>
+          config.galleryCats.items.map((item, index) => (
+            <GalleryItem
+              key={index}
+              src={`../../images/galleryCats/${item.filename}`}
+              height={maxImageHeight}
+              legend={item.legend}
+            />
           ))
         }
       </Carousel>
