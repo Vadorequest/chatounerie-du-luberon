@@ -1,0 +1,13 @@
+email:
+  provider:
+    user:
+    password:
+    host: SSL0.OVH.NET
+    ssl: true
+  to:
+  cc:
+port: 3001
+host: localhost
+client:
+  covers: []
+  galery: []

@@ -1,11 +1,12 @@
 'use strict';
 
+const Path = require('path');
 const Hapi = require('hapi');
 const Good = require('good');
 const Joi = require('joi');
 const Boom = require('boom');
 const email = require("emailjs");
-const Path = require('path');
+const yaml = require('yamljs');
 const merge = require('lodash.merge');
 // XXX Relish allows to customize Hapi errors for front-end friendly error messages. See https://github.com/dialexa/relish
 const Relish = require('relish')({
@@ -18,7 +19,7 @@ const Relish = require('relish')({
 });
 
 // Load both public config and private config and merge them.
-const config = merge({}, require('./config.json'), require('./config-secret.json'));
+const config = merge({}, yaml.load('./config.yml'), yaml.load('./config-secret.yml'));
 
 // Create a server with a host and port
 const server = new Hapi.Server();
@@ -54,15 +55,15 @@ server.register([
   }
 
 
-// Add the route
+  // Add the routes
   server.route({
     method: 'POST',
     path:'/sendContactForm',
     handler: function (request, reply) {
-      const server = email.server.connect(config.email.provider);
+      const mailServer = email.server.connect(config.email.provider);
       const payload = request.payload;
 
-      server.send({
+      mailServer.send({
         to: config.email.to,
         cc: config.email.cc,
         text: JSON.stringify(payload, null, 4), // XXX Alternative text if HTML isn't supported.
@@ -126,6 +127,16 @@ server.register([
         listing: false,
         index: true
       }
+    }
+  });
+
+  server.route({
+    method: 'GET',
+    path: '/config',
+    handler: function (request, reply) {
+      return reply({
+
+      });
     }
   });
 

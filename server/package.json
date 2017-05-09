@@ -11,7 +11,8 @@
     "hapi": "16.1.1",
     "inert": "4.2.0",
     "lodash.merge": "4.6.0",
-    "relish": "0.2.4"
+    "relish": "0.2.4",
+    "yamljs": "0.2.10"
   },
   "scripts": {
     "start": "nodemon index.js"
