@@ -26,7 +26,7 @@ const Services = ({classes, toggleConditionsModal}) => {
         <Card className="mb-3">
           <CardBlock>
             <CardTitle>Prestations et Services </CardTitle>
-            <CardText>
+            <CardText tag="div">
               <br/>
               ​​Notre Chatounerie est un lieu convivial qui permettra à votre chat de séjourner agréablement en attendant votre retour.<br/>
               Il pourra y recevoir les caresses et les  soins nécéssaires dont il a besoin et ce, avec attention.<br/><br/>
@@ -42,7 +42,7 @@ const Services = ({classes, toggleConditionsModal}) => {
             <Card className="mb-3">
               <CardBlock>
                 <CardTitle>Lieu de vie</CardTitle>
-                <CardText>
+                <CardText tag="div">
                   <ul>
                     <li>
                       ​La chatounerie est chauffée en hiver, une température de confort y est maintenue.
@@ -66,7 +66,7 @@ const Services = ({classes, toggleConditionsModal}) => {
             <Card className="item">
               <CardBlock>
                 <CardTitle>Nos installations</CardTitle>
-                <CardText>
+                <CardText tag="div">
                   <ul>
                     <li>
                       ​Afin de leur offrir le loisir de se détendre, de courir, de sauter et de jouer avec les éléments naturels, les chats ont la possibilité (les jours de beau temps) d'accéder à la chatterie extérieure qui est équipée de plateformes, de troncs d'arbre, et de poutres, ainsi ils peuvent à loisir profiter du grand air, observer insectes et papillons et écouter le chant des oiseaux et les cigales en été.
@@ -89,7 +89,7 @@ const Services = ({classes, toggleConditionsModal}) => {
             <Card className="mb-3">
               <CardBlock>
                 <CardTitle>La restauration</CardTitle>
-                <CardText>
+                <CardText tag="div">
                   <ul>
                     <li>
                       L'alimentation que nous avons choisie pour nos fins gourmets est réputée être de qualité. Nous avons opté pour des croquettes Royal Canin, sensible 33, pour permettre même aux plus délicats une bonne digestion.
@@ -107,7 +107,7 @@ const Services = ({classes, toggleConditionsModal}) => {
             <Card className="item">
               <CardBlock>
                 <CardTitle>Les soins vétérinaires</CardTitle>
-                <CardText>
+                <CardText tag="div">
                   <ul>
                     <li>
                       La clinique est située à 3 minutes de la Chatounerie elle est ouverte du lundi au vendredi de 8h30 à 12h00 et de 14h00 à 19h00.

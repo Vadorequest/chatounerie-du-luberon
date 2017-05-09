@@ -46,7 +46,7 @@ class Prices extends Component {
             <Card className="mb-5 mt-5">
               <CardBlock>
                 <CardTitle>Tarification et fonctionnement</CardTitle>
-                <CardText>
+                <CardText tag="div">
                   <ul>
                     <li>
                       Tout séjour fera l'objet d'une réservation qui devra être confirmée et ne sera effective qu'après réception d'un acompte de 6€ par jour et par chat, le solde du séjour est exigible le jour de l'entrée de votre minou à la chatounerie.
@@ -76,7 +76,7 @@ class Prices extends Component {
                 <Card className="mb-3">
                   <CardBlock>
                     <CardTitle>Dates de Haute saison</CardTitle>
-                    <CardText>
+                    <CardText tag="div">
                       <Table striped hover responsive>
                         <thead>
                           <tr>
@@ -146,7 +146,7 @@ class Prices extends Component {
                     <Card className="mb-3">
                       <CardBlock>
                         <CardTitle>Tarifs en Basse Saison</CardTitle>
-                        <CardText>
+                        <CardText tag="div">
                           <Table striped hover responsive>
                             <thead>
                               <tr>
@@ -182,7 +182,7 @@ class Prices extends Component {
                     <Card className="mb-3">
                       <CardBlock>
                         <CardTitle>Tarifs en Haute Saison</CardTitle>
-                        <CardText>
+                        <CardText tag="div">
                           <Table striped hover responsive>
                             <thead>
                               <tr>
