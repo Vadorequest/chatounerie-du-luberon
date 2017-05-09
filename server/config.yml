@@ -10,7 +10,8 @@ port: 3001
 host: localhost
 client:
   # Cover image - Image on the background, the first visible thing when loading the website.
-  covers: [] # Automatic - One image within the folder will be chosen randomly.
+  covers: # Automatic - One image within the folder will be chosen randomly.
+    items: []
 
   # Gallery of office pictures.
   galleryOffice:

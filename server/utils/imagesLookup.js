@@ -5,13 +5,10 @@ const find = require('lodash.find');
 
 const imagesPath = path.join(__dirname, '../../client/public/images/');
 
-// const lookup = () => {
-//   readdir()
-// };
+const lookupFolder = (config, key) => {
+  const picturesInConfig = config[key].items;
+  const folderPath = path.join(imagesPath, key);
 
-const lookupGalleryOffice = (config) => {
-  const picturesInConfig = config.galleryOffice.items;
-  const folderPath = path.join(imagesPath, 'galleryOffice');
   return readdir(folderPath)
     .then(picturesInFolder => {
       const pictures = [];
@@ -24,7 +21,7 @@ const lookupGalleryOffice = (config) => {
       });
 
       // Update the given config.
-      config.galleryOffice.items = pictures;
+      config[key].items = pictures;
 
       return config;
     })
@@ -34,32 +31,21 @@ const lookupGalleryOffice = (config) => {
     });
 };
 
+const lookupGalleryOffice = (config) => {
+  return lookupFolder(config, 'galleryOffice');
+
+};
+
 const lookupGalleryCats = (config) => {
-  const picturesInConfig = config.galleryCats.items;
-  const folderPath = path.join(imagesPath, 'galleryCats');
-  return readdir(folderPath)
-    .then(picturesInFolder => {
-      const pictures = [];
+  return lookupFolder(config, 'galleryCats');
+};
 
-      // For every file in the folder, find existing config for this file or create it.
-      picturesInFolder.forEach(pic => {
-        const existingConfigPicture = find(picturesInConfig, { filename: pic }) || { filename: pic };
-
-        pictures.push(existingConfigPicture);
-      });
-
-      // Update the given config.
-      config.galleryCats.items = pictures;
-
-      return config;
-    })
-    .catch(err => {
-      console.error(err);
-      return config;
-    });
+const lookupCovers = (config) => {
+  return lookupFolder(config, 'covers');
 };
 
 module.exports = {
   lookupGalleryOffice,
-  lookupGalleryCats
+  lookupGalleryCats,
+  lookupCovers,
 };

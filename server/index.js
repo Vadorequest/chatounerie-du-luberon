@@ -140,7 +140,8 @@ server.register([
 
       Promise.all([
         imagesLookup.lookupGalleryOffice(clientConfig),
-        imagesLookup.lookupGalleryCats(clientConfig)
+        imagesLookup.lookupGalleryCats(clientConfig),
+        imagesLookup.lookupCovers(clientConfig),
       ])
         .then(dynamicConfig => {
           return reply(Object.assign({}, ...dynamicConfig));
