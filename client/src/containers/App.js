@@ -27,6 +27,7 @@ class App extends Component {
       screenHeight: '0',
       isConditionsModalOpen: false,
       conditionsModalActiveTab: '1',
+      config: null,
     };
 
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
@@ -53,6 +54,15 @@ class App extends Component {
     window.addEventListener('resize', this.updateWindowDimensions);
   }
 
+  componentWillMount() {
+    fetch('config')
+      .then(body => body.json())
+      .then(response => {
+        this.setState({config: response})
+      })
+      .catch(err => console.error(err));
+  }
+
   componentWillUnmount() {
     window.removeEventListener('resize', this.updateWindowDimensions);
   }
@@ -64,9 +74,9 @@ class App extends Component {
     });
   }
 
-  render() {
+  renderApp() {
     return (
-      <div className="App">
+      <div className="app">
         <Cover
           screenHeight={this.state.screenHeight}
         />
@@ -253,6 +263,36 @@ class App extends Component {
             <Button color="secondary" onClick={this.toggleConditionsModal}>Fermer</Button>
           </ModalFooter>
         </Modal>
+      </div>
+    );
+  }
+
+  renderSpinner() {
+    return (
+      <div class="app-waiting" style={{
+        textAlign: 'center',
+        marginTop: '45vh',
+      }}>
+        <i className="fa fa-spinner fa-pulse fa-4x fa-fw"></i>
+      </div>
+    );
+  }
+
+  render() {
+    const config = this.state.config;
+
+    return (
+      <div>
+        { // Wait for the config to be loaded and display a spinner meanwhile.
+          !config && (
+            this.renderSpinner()
+          )
+        }
+        { // Render the app when the config has been loaded.
+          config && (
+            this.renderApp()
+          )
+        }
       </div>
     );
   }

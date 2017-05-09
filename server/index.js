@@ -134,9 +134,7 @@ server.register([
     method: 'GET',
     path: '/config',
     handler: function (request, reply) {
-      return reply({
-
-      });
+      return reply(config.client);
     }
   });
 

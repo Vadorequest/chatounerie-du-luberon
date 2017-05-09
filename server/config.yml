@@ -9,6 +9,14 @@ email:
 port: 3001
 host: localhost
 client:
-  covers: []
-  galeryOffice: []
+  covers: [] # Automatic - Each image in the folder will be chosen randomly
+  galeryOffice:
+    - filename: "office1.jpg"
+      legend: "La Chatounerie, vue de l'extérieur"
+    - filename: "office2.jpg"
+      legend: "Notre arbre à chats, tant convoité"
+    - filename: "office3.jpg"
+      legend: "Chatounerie vue de l'intérieur (droite porte d'entrée)"
+    - filename: "office4.jpg"
+      legend: "Chatounerie vue de l'intérieur (gauche porte d'entrée"
   galeryCats: []
