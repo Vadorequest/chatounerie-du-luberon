@@ -44,7 +44,7 @@ const GaleryCats = ({classes, screenHeight}) => {
       >
         {
           times(imagesCount, (i) => (
-            <div>
+            <div key={i}>
               <img
                 src={`../../images/galery/galery${i+1}.jpg`}
                 height={maxImageHeight}

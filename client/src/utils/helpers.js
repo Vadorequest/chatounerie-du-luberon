@@ -35,8 +35,7 @@ export const getPosition = (el) => {
 export const scrollTo = (target) => {
   const { navbar: { minHeight: minNavbarHeight } } = NavbarStyles;
   const $target = document.querySelector(target);
-  const $targetPos = getPosition($target);
-  console.log($targetPos.y + minNavbarHeight);
+  // const $targetPos = getPosition($target);
 
   if(target === '#home'){
     return smoothScroll($target);
