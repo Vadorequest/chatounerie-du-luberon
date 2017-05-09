@@ -10,4 +10,5 @@ port: 3001
 host: localhost
 client:
   covers: []
-  galery: []
+  galeryOffice: []
+  galeryCats: []

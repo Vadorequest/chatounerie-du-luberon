@@ -17,7 +17,7 @@ const styles = {
   },
 };
 
-const Cover = ({classes, screenHeight}) => {
+const GaleryOffice = ({classes, screenHeight}) => {
   const maxImageHeight = screenHeight - minHeight;
   const settings = {
     showThumbs: false,
@@ -32,7 +32,7 @@ const Cover = ({classes, screenHeight}) => {
 
   return (
     <section
-      id="office"
+      id="galeryOffice"
       className={classes.container}
     >
       <Carousel
@@ -75,4 +75,4 @@ const Cover = ({classes, screenHeight}) => {
   );
 };
 
-export default withSheet(styles)(Cover);
+export default withSheet(styles)(GaleryOffice);

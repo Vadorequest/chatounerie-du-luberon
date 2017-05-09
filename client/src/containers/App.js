@@ -10,9 +10,9 @@ import {
 import Cover from '../components/Cover';
 import Navbar from '../components/Navbar';
 import Chatounerie from '../components/Chatounerie';
-import Office from '../components/Office';
+import GaleryOffice from '../components/GaleryOffice';
 import Services from '../components/Services';
-import Galery from '../components/Galery';
+import GaleryCats from '../components/GaleryCats';
 import Prices from '../components/Prices';
 import Contact from '../components/Contact';
 import GoogleMap from '../components/GoogleMap';
@@ -72,13 +72,13 @@ class App extends Component {
         />
         <Navbar />
         <Chatounerie />
-        <Office
+        <GaleryOffice
           screenHeight={this.state.screenHeight}
         />
         <Services
           toggleConditionsModal={this.toggleConditionsModal}
         />
-        <Galery
+        <GaleryCats
           screenHeight={this.state.screenHeight}
         />
         <Prices />

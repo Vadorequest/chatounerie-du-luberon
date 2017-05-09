@@ -20,7 +20,7 @@ const styles = {
   },
 };
 
-const Galery = ({classes, screenHeight}) => {
+const GaleryCats = ({classes, screenHeight}) => {
   const imagesCount = 18;
   const maxImageHeight = screenHeight - minHeight;
   const settings = {
@@ -36,7 +36,7 @@ const Galery = ({classes, screenHeight}) => {
 
   return (
     <section
-      id="galery"
+      id="galeryCats"
       className={classes.container}
     >
       <Carousel
@@ -58,4 +58,4 @@ const Galery = ({classes, screenHeight}) => {
   );
 };
 
-export default withSheet(styles)(Galery);
+export default withSheet(styles)(GaleryCats);
