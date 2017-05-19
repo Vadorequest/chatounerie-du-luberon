@@ -37,7 +37,7 @@ const Chatounerie = ({classes}) => {
         </Card>
 
         <Row>
-          <Col className="mb-3">
+          <Col className="mb-3" xs="12" md="6" lg="3">
             <Card className="item">
               <CardImg tag="i" className="fa fa-graduation-cap fa-3x pt-3 icon"></CardImg>
               <CardBlock>
@@ -50,7 +50,7 @@ const Chatounerie = ({classes}) => {
             </Card>
           </Col>
 
-          <Col className="mb-3">
+          <Col className="mb-3" xs="12" md="6" lg="3">
             <Card className="item">
               <CardImg tag="i" className="fa fa-users fa-3x pt-3 icon"></CardImg>
               <CardBlock>
@@ -63,7 +63,7 @@ const Chatounerie = ({classes}) => {
             </Card>
           </Col>
 
-          <Col className="mb-3">
+          <Col className="mb-3" xs="12" md="6" lg="3">
             <Card className="item">
               <CardImg tag="i" className="fa fa-comments-o fa-3x pt-3 icon"></CardImg>
               <CardBlock>
@@ -73,7 +73,7 @@ const Chatounerie = ({classes}) => {
             </Card>
           </Col>
 
-          <Col className="mb-3">
+          <Col className="mb-3" xs="12" md="6" lg="3">
             <Card className="item">
               <CardImg tag="i" className="fa fa-h-square fa-3x pt-3 icon"></CardImg>
               <CardBlock>

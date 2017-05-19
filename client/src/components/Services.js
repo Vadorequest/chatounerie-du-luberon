@@ -38,7 +38,7 @@ const Services = ({classes, toggleConditionsModal}) => {
         </Card>
 
         <Row>
-          <Col className="mb-3">
+          <Col className="mb-3" xs="12" md="6">
             <Card className="mb-3">
               <CardBlock>
                 <CardTitle>Lieu de vie</CardTitle>
@@ -62,7 +62,7 @@ const Services = ({classes, toggleConditionsModal}) => {
             </Card>
           </Col>
 
-          <Col className="mb-3">
+          <Col className="mb-3" xs="12" md="6">
             <Card className="item">
               <CardBlock>
                 <CardTitle>Nos installations</CardTitle>
@@ -87,7 +87,7 @@ const Services = ({classes, toggleConditionsModal}) => {
         </Row>
 
         <Row>
-          <Col className="mb-3">
+          <Col className="mb-3" xs="12" md="6">
             <Card className="mb-3">
               <CardBlock>
                 <CardTitle>La restauration</CardTitle>
@@ -107,7 +107,7 @@ const Services = ({classes, toggleConditionsModal}) => {
             </Card>
           </Col>
 
-          <Col className="mb-3">
+          <Col className="mb-3" xs="12" md="6">
             <Card className="item">
               <CardBlock>
                 <CardTitle>Les soins vétérinaires</CardTitle>
