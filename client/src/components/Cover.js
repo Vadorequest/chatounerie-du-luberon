@@ -29,12 +29,16 @@ const styles = {
   intro: {
     position: 'absolute',
     width: '100%',
-    top: '20%',
+    top: '40%',
     left: 0,
     textAlign: 'center',
     transform: 'translate(0%, -50%)',
     padding: '0 15px',
     color: 'white',
+
+    '@media (max-width: 992px)': {
+      top: '40%',
+    },
   },
   introParagraph: {
     font: {
