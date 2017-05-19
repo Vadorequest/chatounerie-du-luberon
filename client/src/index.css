@@ -22,3 +22,7 @@ body {
 .toastify {
   z-index: 11;
 }
+
+.jumbotron {
+  background-color: rgb(245, 245, 245);
+}
