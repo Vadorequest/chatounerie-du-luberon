@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import App from './containers/App';
 
 // CSS dependencies
+import 'normalize.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'react-responsive-carousel/lib/styles/carousel.css';
 import 'react-toastify/dist/ReactToastify.min.css'
