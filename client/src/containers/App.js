@@ -15,7 +15,7 @@ import Services from '../components/Services';
 import GalleryCats from '../components/GalleryCats';
 import Prices from '../components/Prices';
 import Contact from '../components/Contact';
-import GoogleMap from '../components/GoogleMap';
+import Map from '../components/Map';
 import Footer from '../components/Footer';
 
 class App extends Component {
@@ -98,7 +98,9 @@ class App extends Component {
         />
         <Prices />
         <Contact />
-        <GoogleMap />
+        <Map
+          config={config}
+        />
         <Footer
           toggleConditionsModal={this.toggleConditionsModal}
         />

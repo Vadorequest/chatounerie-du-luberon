@@ -28,3 +28,7 @@ client:
   # Gallery of cats pictures.
   galleryCats:
     items: []
+
+  # Google Map config. (API key)
+  googleMap:
+    key:
