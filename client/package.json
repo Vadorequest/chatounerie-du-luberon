@@ -6,6 +6,7 @@
     "bootstrap": "4.0.0-alpha.6",
     "classnames": "2.2.5",
     "lodash.times": "4.3.2",
+    "normalize.css": "7.0.0",
     "react": "15.5.4",
     "react-addons-css-transition-group": "15.5.2",
     "react-addons-transition-group": "15.5.2",
