@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "concurrently --kill-others \"cd client && npm start && cd ..\" \"cd server && npm run start && cd ..\"",
     "prod": "cd client && npm run build && cd ../server && npm run start",
-    "prod-fast": "cd server && npm run start"
+    "prod-fast": "cd server && npm run start",
+    "postinstall": "cd client && npm i && cd ../server && npm i"
   },
   "devDependencies": {
     "concurrently": "3.4.0"
