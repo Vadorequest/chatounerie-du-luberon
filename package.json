@@ -2,7 +2,8 @@
   "name": "chatounerie-du-luberon",
   "scripts": {
     "dev": "concurrently --kill-others \"cd client && npm start && cd ..\" \"cd server && npm run start && cd ..\"",
-    "prod": "cd client && npm run build && cd ../server && npm run start",
+    "build": "cd client && npm run build && cd ..",
+    "prod": "npm run build && pm2 restart chatounerie",
     "prod-fast": "cd server && npm run start",
     "postinstall": "cd client && npm i && cd ../server && npm i"
   },
