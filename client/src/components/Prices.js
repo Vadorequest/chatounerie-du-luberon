@@ -88,28 +88,33 @@ class Prices extends Component {
                         <tbody>
                           <tr>
                             <th scope="row">Toussaint</th>
-                            <td>Samedi 19 octobre 2016</td>
-                            <td>Lundi 3 novembre 2016</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">Noël</th>
-                            <td>Samedi 17 décembre 2016</td>
-                            <td>Lundi 3 janvier 2017</td>
+                            <td>1er juillet 2017</td>
+                            <td>04 septembre 2017</td>
                           </tr>
                           <tr>
                             <th scope="row">Hiver</th>
-                            <td>Samedi 11 février 2016</td>
-                            <td>Lundi 27 février 2017</td>
+                            <td>21 Octobre 2017</td>
+                            <td>06 Novembre 2017</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Noël</th>
+                            <td>23 Décembre 2017</td>
+                            <td>08 Janvier 2018</td>
                           </tr>
                           <tr>
                             <th scope="row">Printemps</th>
-                            <td>Samedi 8 avril 2016</td>
-                            <td>Lundi 24 avril 2017</td>
+                            <td>24 Février 2018</td>
+                            <td>12 Mars 2018</td>
                           </tr>
                           <tr>
                             <th scope="row">Été</th>
-                            <td>mercredi 8 juillet 2017</td>
-                            <td>Lundi 1 septembre 2017</td>
+                            <td>21 Avril 2018</td>
+                            <td>07 Mai 2018</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Été</th>
+                            <td>1er Juillet 2018</td>
+                            <td>04 Septembre 2018</td>
                           </tr>
                         </tbody>
                       </Table>
