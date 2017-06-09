@@ -216,7 +216,7 @@ class App extends Component {
                             Ou si l'agressivité de l'animal empêche de lui prodiguer les soins nécessaires.
                           </li>
                           <li>
-                            <strong>En cas de décès de l'animal</strong>, il sera pratiqué une autopsie qui déterminera les causes du décès.
+                            <strong>En cas de décès de l'animal,</strong> une autopsie sera pratiquée par le vétérinaire si vous l'avez stipulé lors de son inscription.
                             <ul>
                               <li>Un compte rendu, ou une attestation du vétérinaire vous sera remis. L'animal sera incinéré. </li>
                               <li>Les sommes dûes devront être réglées par le propriétaire. </li>
@@ -227,7 +227,7 @@ class App extends Component {
                         <Alert color="warning">
                           <ul>
                             <li>
-                              Tout animal laissé plus de 7 jours à la pension après la date de départ fixée (et ce, sans nouvelle de son propriétaire) sera considéré comme abandonné et nous serons alors dans l'obligation de prendre les dispositions nécessaires relatives aux abandons des animaux <strong>(Art 453, 511-11 et 521-1 du code pénal)</strong>.<br/>
+                              Tout animal laissé plus de 7 jours à la pension après la date de départ fixée (et ce, sans nouvelle de son propriétaire) sera considéré comme abandonné et nous serons alors dans l'obligation de prendre les dispositions nécessaires relatives aux abandons des animaux. <strong>Art 453, 511-11 et 521-1 du code pénal</strong>.<br/>
                               Dans ce cas de figure, des poursuites seront donc engagées contre le propriétaire, la pension pourra disposer librement de l'animal et mettre en recouvrement tous les frais inhérents à cette situation.
                             </li>
                             <li>
@@ -237,7 +237,9 @@ class App extends Component {
                           </ul>
                         </Alert>
                         <Alert color="info">
-                          Si vous désirez prolonger le séjour de votre chat, veuillez nous en informer au moins 48 h à l'avance. Nous essayerons de satisfaire votre demande en fonction des places disponibles, mais nous ne pouvons vous garantir de pouvoir le faire.
+                          Si vous désirez prolonger le séjour de votre chat, veuillez nous en informer au moins 48 h à l'avance.
+                          Nous essayerons de satisfaire votre demande en fonction des places disponibles, mais nous ne pouvons vous garantir de pouvoir le faire.<br/>
+                          Tout jour supplémentaire en dehors des jours établit au contrat seront facturés selon les tarifs de la période majorés de <strong>25%</strong>.
                           <ul>
                             <li>
                               L'acompte ne sera pas restitué si le séjour est annulé en tout ou en partie moins de 3 semaines avant la date d'entrée prévue de l'animal.

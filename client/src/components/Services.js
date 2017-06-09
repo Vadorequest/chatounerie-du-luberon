@@ -69,8 +69,8 @@ const Services = ({classes, toggleConditionsModal}) => {
                 <CardText tag="div">
                   <ul>
                     <li>
-                      ​Afin de leur offrir le loisir de se détendre, de courir, de sauter et de jouer avec les éléments naturels, les chats ont la possibilité (les jours de beau temps) d'accéder à la chatterie extérieure qui est équipée de plateformes, de troncs d'arbres, et de poutres.
-                      Ainsi ils peuvent à loisir profiter du grand air, observer insectes et papillons et écouter le chant des oiseaux et des cigales en été.
+                      ​Afin de leur offrir le loisir de se détendre, de courir, de sauter et de jouer avec les éléments naturels, une chatterie extérieure devrait être conçue d'ici la fin du printemps. Les chats auront la possibilité d'y accéder, elle sera équipée de plateformes, de troncs d'arbres et de poutres.
+                      Ainsi ils pourront à loisir profiter du grand air, observer insectes et papillons et écouter le chant des oiseaux et des cigales en été.
                     </li>
                     <li>
                       Même le chat qui n'a pas l'habitude d'être en compagnie de ses congénères se comportera différemment à la Chatounerie, car, n'étant pas chez lui, il n'a pas de territoire à défendre et deviendra donc plus sociable.
@@ -96,10 +96,11 @@ const Services = ({classes, toggleConditionsModal}) => {
                     <li>
                       L'alimentation que nous avons choisie pour nos fins gourmets est réputée être de qualité.
                       Nous avons opté pour des croquettes Royal Canin, sensible 33, pour permettre une bonne digestion, même pour les plus délicats.
+                      <img src="/images/cat-mouse.jpg" style={{ width: '100%'}} />
                     </li>
                     <li>
                       Dans nos tarifs, la pension, la nourriture, la litière, les soins de base ainsi que l'administration de médicaments sur ordonnance sont compris.
-                      <small>(Il n'y a pas de supplément <i>"caché"</i></small>
+                      &nbsp;<small>(Il n'y a pas de supplément <i>"caché"</i></small>
                     </li>
                   </ul>
                 </CardText>
