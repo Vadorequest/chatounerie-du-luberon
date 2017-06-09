@@ -27,7 +27,7 @@ const Footer = ({classes, toggleConditionsModal}) => {
               <i className="fa fa-map-marker"></i> <strong>Adresse:</strong><br/>
               <div className={classes.subfooter}>
                 La chatounerie du Luberon<br/>
-                899 Chemin du Moulin D'Oise<br/>
+                899 B Chemin du Moulin D'Oise<br/>
                 84440 Robion - FRANCE
               </div>
             </div>
