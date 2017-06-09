@@ -28,7 +28,7 @@ const Chatounerie = ({classes}) => {
       <Jumbotron style={{ paddingBottom: 'none' }}>
         <Card className="mb-3">
           <CardBlock>
-            <CardTitle>Vous partez en week end ou en vacances, laissez nous votre chat, nous nous en occupons !</CardTitle>
+            <CardTitle>Vous partez en week end ou en vacances, laissez nous votre chat, nous nous en occupons&nbsp;!</CardTitle>
             <CardText>
               La Chatounerie, notre petite pension féline est située à 30 Km d'Avignon, 37 Km de Salon de Provence et 27 Km d'Apt.<br/>
               En plein coeur du <strong>Luberon</strong>, proche des communes de Gordes, Lacoste, Roussillon et Lourmarin, en Vaucluse.<br/>
@@ -56,7 +56,7 @@ const Chatounerie = ({classes}) => {
               <CardBlock>
                 <CardTitle>Disponibles</CardTitle>
                 <CardText>
-                  Vous redoutez de confier votre animal de compagnie à n'importe qui ? Venez <strong>découvrir nos locaux</strong> !<br/>
+                  Vous redoutez de confier votre animal de compagnie à n'importe qui ? Venez <strong>découvrir nos locaux</strong>&nbsp;!<br/>
                   Notre pension est ouverte toute l'année du lundi au samedi.<br/>
                 </CardText>
               </CardBlock>

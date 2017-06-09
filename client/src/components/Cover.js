@@ -95,7 +95,7 @@ const Cover = ({classes, screenHeight, config}) => {
         </p>
         <h1>La Chatounerie du Luberon</h1>
         <p className={classes.introParagraph}>
-          un endroit sympa où nous laisser votre chat et partir voyager en toute sérénité !
+          un endroit sympa où nous laisser votre chat et partir voyager en toute sérénité&nbsp;!
         </p>
       </div>
 
