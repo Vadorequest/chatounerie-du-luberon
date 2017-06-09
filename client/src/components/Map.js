@@ -17,7 +17,7 @@ const settings = {
     lng: 5.1310694
   },
   zoom: 10,
-  label: 'La Chatounerie',
+  label: 'La chatounerie du Luberon',
   defaultAnimation: 2,
 };
 

@@ -26,7 +26,7 @@ const Footer = ({classes, toggleConditionsModal}) => {
             <div>
               <i className="fa fa-map-marker"></i> <strong>Adresse:</strong><br/>
               <div className={classes.subfooter}>
-                La Chatounerie<br/>
+                La chatounerie du Luberon<br/>
                 899 Chemin du Moulin D'Oise<br/>
                 84440 Robion - FRANCE
               </div>
@@ -47,6 +47,13 @@ const Footer = ({classes, toggleConditionsModal}) => {
               <div>
                 <i className="fa fa-book"></i> <a onClick={toggleConditionsModal}>Conditions Générales d'Utilisation</a><br/>
               </div>
+            </div>
+          </Col>
+          <Col>
+            <div>
+              <a href="http://www.annuaire-felin.com/"><img src="http://www.annuaire-felin.com/logochats.jpg" title="l'annuaire gratuits des chats" alt="l'annuaire gratuit des chats" /></a>
+              &nbsp;
+              <a href="http://www.annuaire-felin.fr/"><img src="http://www.annuaire-felin.fr/referencement.jpg" title="Felin L'annuaire des éleveurs" alt="Felin L'annuaire des éleveurs"/></a>
             </div>
           </Col>
         </Row>
