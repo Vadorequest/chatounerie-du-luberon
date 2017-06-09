@@ -66,6 +66,9 @@ class Prices extends Component {
                     <li>
                       Les frais de garde des paniers (identifiés et propres) seront facturés 1 € par jour en saison basse, et 2€ par jour en saison haute.
                     </li>
+                    <li>
+                      Toute journée complémentaire non mentionnée au contrat sera facturée au tarif selon la période (haute/basse saison), en fonction du nombre de chats et majorée de <strong>25%</strong>.
+                    </li>
                   </ul>
                 </CardText>
               </CardBlock>

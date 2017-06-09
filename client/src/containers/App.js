@@ -206,9 +206,6 @@ class App extends Component {
                             Certaines affections pouvant être présente dans l'organisme d'un animal pendant des années sans aucune manifestations (porteur sain) et ne se déclencher que lors de stress (mise en pension, changement d'habitude) et faire apparaître les signes cliniques de ces symptômes à ce moment-là.
                           </li>
                           <li>
-
-                          </li>
-                          <li>
                             La Chatounerie ne pourra être tenu pour responsable en cas d'apparition de maladies. <small>(Les maladies comme la PIF, la FIV, la teigne et certains coryzas chroniques d'insuffisance hépatique ou rénale, etc.)</small>
                           </li>
                           <li>
@@ -259,7 +256,7 @@ class App extends Component {
                               Le propriétaire est conscient que son animal, vivant avec d'autres congénères, n'est pas à l'abri d'un incident éventuel.
                             </li>
                             <li>
-                              La pension reçoit toute l'année du lundi au samedi, fermés les dimanches et jours fériés.
+                              Pension ouverte toute l'année, aucune arrivée ni départ de chat les dimanches et jours fériés.
                               Les entrées et sorties se font sur rendez-vous aux jours d'ouverture:
                               <ul>
                                 <li>Du lundi au samedi de 10h00 à 12h00 et de 14h00 à 19h00.</li>
