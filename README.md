@@ -29,4 +29,4 @@ Built on top of Hapi.js, use Emailjs to send emails through the contact form.
 
 # Deployment
 
-Run `npm run prod` which rebuilds the project and restart the pm2 process (server).
+Run `git pull && npm run prod` which rebuilds the project and restart the pm2 process (server).
