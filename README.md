@@ -1,4 +1,4 @@
-# Chatounerie du Lubéron
+# Chatounerie du Luberon
 
 This is a showcase website for a professional activity.
 

@@ -45,7 +45,7 @@ class Navbar extends React.Component {
         <Sticky innerZ={10} enabled>
           <NavbarStrap className={classes.navbar} light toggleable>
             <NavbarToggler right onClick={this.toggle} />
-            <NavbarBrand href="/">La Chatounerie du Lubéron</NavbarBrand>
+            <NavbarBrand href="/">La Chatounerie du Luberon</NavbarBrand>
             <Collapse isOpen={this.state.isOpen} onClick={this.toggle} navbar>
               <Nav className={classNames("ml-auto", classes.navLinks)} navbar>
                 <NavItem>

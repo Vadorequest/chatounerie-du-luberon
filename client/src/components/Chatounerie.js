@@ -31,7 +31,7 @@ const Chatounerie = ({classes}) => {
             <CardTitle>Vous partez en week end ou en vacances, laissez nous votre chat, nous nous en occupons !</CardTitle>
             <CardText>
               La Chatounerie, notre petite pension féline est située à 30 Km d'Avignon, 37 Km de Salon de Provence et 27 Km d'Apt.<br/>
-              En plein coeur du <strong>Lubéron</strong>, proche des communes de Gordes, Lacoste, Roussillon et Lourmarin, en Vaucluse.<br/>
+              En plein coeur du <strong>Luberon</strong>, proche des communes de Gordes, Lacoste, Roussillon et Lourmarin, en Vaucluse.<br/>
             </CardText>
           </CardBlock>
         </Card>
