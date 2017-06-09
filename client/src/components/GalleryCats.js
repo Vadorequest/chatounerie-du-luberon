@@ -12,7 +12,7 @@ import GalleryItem from './GalleryItem';
 const styles = {
   container: {
     '& img': {
-      objectFit: 'cover',
+      objectFit: 'contain',
     },
 
     '& .legend': {
@@ -29,7 +29,7 @@ const GalleryCats = ({classes, screenHeight, config}) => {
     emulateTouch: true,
     infiniteLoop: true,
     useKeyboardArrows: true,
-    autoPlay: true,
+    autoPlay: false,
     stopOnHover: true,
     interval: 3000,
   };
