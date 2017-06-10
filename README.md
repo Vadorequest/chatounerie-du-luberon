@@ -6,7 +6,6 @@ You can visit the website at http://chatounerie-du-luberon.com/
 
 
 # LICENSE
-Even though the source code is public (Github), the code source **is not**.
 
 This program can be used for learning/teaching/personal use without prior authorization, but cannot be used for any commercial use.
 
