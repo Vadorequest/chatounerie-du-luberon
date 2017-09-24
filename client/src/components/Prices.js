@@ -223,7 +223,12 @@ class Prices extends Component {
                     </Card>
                   </TabPane>
                 </TabContent>
+              </Col>
 
+              <Col xs={12} md={12}>
+                <Alert color="warning" style={{"text-align": "center"}}>
+                  <strong>Nos tarifs vont augmenter de 1€ (par jour et par chat) à compter du 23 décembre 2017, en basse et en haute saison.</strong>
+                </Alert>
               </Col>
             </Row>
 

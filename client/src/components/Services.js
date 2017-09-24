@@ -96,7 +96,7 @@ const Services = ({classes, toggleConditionsModal}) => {
                     <li>
                       L'alimentation que nous avons choisie pour nos fins gourmets est réputée être de qualité.
                       Nous avons opté pour des croquettes Royal Canin, sensible 33, pour permettre une bonne digestion, même pour les plus délicats.
-                      <img src="/images/cat-mouse.jpg" style={{ width: '100%'}} />
+                      <img src="/images/cat-mouse.jpg" style={{ width: '100%'}} alt="Cat eats mouse" />
                     </li>
                     <li>
                       Dans nos tarifs, la pension, la nourriture, la litière, les soins de base ainsi que l'administration de médicaments sur ordonnance sont compris.
