@@ -25,7 +25,20 @@ Requests are proxified to the backend server.
 
 Built on top of Hapi.js, use Emailjs to send emails through the contact form.
 
+# First deploiement (VPS)
 
-# Deployment
+1. Install nvm: `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.5/install.sh | bash`
+1. `nvm install 6`
+1. `npm i -g pm2`
+1. `git clone https://github.com/Vadorequest/chatounerie-du-luberon.git`
+1. `cd chatounerie-du-luberon`
+1. `npm i && cd client && npm i && cd ../server && npm i`
+1. `nano config-secret.yml` fill secret values, also update port if neededd
+1. `pm2 start index.js --name chatounerie`
+1. `cd .. && npm run prod` build a static version of the frontend and restarts the backend
+
+Website should be available on the defined `http://localhost:port`.
+
+## Re-Deploiment (update)
 
 Run `git pull && npm run prod` which rebuilds the project and restart the pm2 process (server).
