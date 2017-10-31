@@ -101,7 +101,7 @@ class Prices extends Component {
                           </tr>
                           <tr>
                             <th scope="row">Noël</th>
-                            <td>23 Décembre 2017</td>
+                            <td>20 Décembre 2017</td>
                             <td>08 Janvier 2018</td>
                           </tr>
                           <tr>
@@ -227,7 +227,7 @@ class Prices extends Component {
 
               <Col xs={12} md={12}>
                 <Alert color="danger" style={{"text-align": "center"}}>
-                  <strong>Nos tarifs vont augmenter de 1€ (par jour et par chat) à compter du 23 décembre 2017, en basse et en haute saison.</strong>
+                  <strong>Nos tarifs vont augmenter de 1€ (par jour et par chat) à compter du 20 décembre 2017, en basse et en haute saison.</strong>
                 </Alert>
               </Col>
             </Row>
