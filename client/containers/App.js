@@ -91,7 +91,6 @@ class App extends Component {
             },
             {
               filename: 'best friend forever003_.jpg',
-              legend: 'La Chatounerie, vue de l\'extérieur',
             },
             {
               filename: 'chat-stethoscope-2.jpg',
