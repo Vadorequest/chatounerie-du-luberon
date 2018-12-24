@@ -1,13 +1,12 @@
 {
   "name": "chatounerie-du-luberon",
   "scripts": {
-    "dev": "next",
     "build": "next build",
-    "start": "next start",
+    "start": "next",
     "export": "next export -o .dist",
     "deploy": "yarn build && yarn export && firebase deploy",
     "deploy:simple": "firebase deploy",
-    "ps:3000": "sudo lsof -i tcp:3000",
+    "ps": "sudo lsof -i tcp:3000",
     "login": "firebase login",
     "logout": "firebase logout"
   },
