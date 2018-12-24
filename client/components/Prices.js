@@ -90,6 +90,31 @@ class Prices extends Component {
                         </thead>
                         <tbody>
                           <tr>
+                            <th scope="row">Noël</th>
+                            <td>21 Décembre 2018</td>
+                            <td>06 Janvier 2019</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Hiver</th>
+                            <td>9 Février 2019</td>
+                            <td>24 Février 2019</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Printemps</th>
+                            <td>5 Avril 2019</td>
+                            <td>23 Avril 2019</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Ascension</th>
+                            <td>29 Mai 2019</td>
+                            <td>03 Juin 2019</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Été</th>
+                            <td>1er Juillet 2019</td>
+                            <td>04 Septembre 2019</td>
+                          </tr>
+                          <tr>
                             <th scope="row">Toussaint</th>
                             <td>1er juillet 2017</td>
                             <td>04 septembre 2017</td>
@@ -98,26 +123,6 @@ class Prices extends Component {
                             <th scope="row">Hiver</th>
                             <td>21 Octobre 2017</td>
                             <td>06 Novembre 2017</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">Noël</th>
-                            <td>20 Décembre 2017</td>
-                            <td>08 Janvier 2018</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">Printemps</th>
-                            <td>24 Février 2018</td>
-                            <td>12 Mars 2018</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">Été</th>
-                            <td>21 Avril 2018</td>
-                            <td>07 Mai 2018</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">Été</th>
-                            <td>1er Juillet 2018</td>
-                            <td>04 Septembre 2018</td>
                           </tr>
                         </tbody>
                       </Table>
@@ -165,7 +170,7 @@ class Prices extends Component {
                             <tbody>
                               <tr>
                                 <th scope="row">Un ou deux chats</th>
-                                <td>11€</td>
+                                <td>12€</td>
                               </tr>
                               <tr>
                                 <th scope="row">Trois chats et plus</th>
@@ -201,11 +206,11 @@ class Prices extends Component {
                             <tbody>
                               <tr>
                                 <th scope="row">Un ou deux chats</th>
-                                <td>13€</td>
+                                <td>14€</td>
                               </tr>
                               <tr>
                                 <th scope="row">Trois chats et plus</th>
-                                <td>11€</td>
+                                <td>12€</td>
                               </tr>
                             </tbody>
                           </Table>
@@ -225,11 +230,11 @@ class Prices extends Component {
                 </TabContent>
               </Col>
 
-              <Col xs={12} md={12}>
-                <Alert color="danger" style={{"text-align": "center"}}>
-                  <strong>Nos tarifs vont augmenter de 1€ (par jour et par chat) à compter du 20 décembre 2017, en basse et en haute saison.</strong>
-                </Alert>
-              </Col>
+              {/*<Col xs={12} md={12}>*/}
+                {/*<Alert color="danger" style={{"textAlign": "center"}}>*/}
+                  {/*<strong>Nos tarifs vont augmenter de 1€ (par jour et par chat) à compter du 20 décembre 2017, en basse et en haute saison.</strong>*/}
+                {/*</Alert>*/}
+              {/*</Col>*/}
             </Row>
 
           </CardBody>

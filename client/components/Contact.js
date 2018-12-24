@@ -1,14 +1,12 @@
 import React from 'react';
 import withSheet from 'react-jss';
-import { Button, Form, FormGroup, Label, Input, Col, Container, Alert, Row } from 'reactstrap';
+import { Alert, Col, Container, Row } from 'reactstrap';
 import classNames from 'classnames';
 import { toast } from 'react-toastify';
 import fetch from 'isomorphic-fetch';
 
 const styles = {
-  container: {
-
-  },
+  container: {},
 };
 
 const sendForm = () => {
@@ -28,7 +26,7 @@ const sendForm = () => {
       return body.json();
     })
     .then((response) => {
-      if(response.statusCode !== 200){
+      if (response.statusCode !== 200) {
         return toast.error(response.message);
       }
 
@@ -40,14 +38,14 @@ const sendForm = () => {
     });
 };
 
-const Contact = ({classes}) => {
+const Contact = ({ classes }) => {
   return (
     <section
       id="contact"
       className={classNames(classes.container, 'pb-3')}
     >
       <Container>
-        <h2 className="mb-3">Nous contacter</h2>
+        <h2 className="mb-3" style={{ textAlign: 'center' }}>Nous contacter</h2>
 
         <Row>
           {/*<Col xs="12" xl="6">*/}
@@ -84,15 +82,16 @@ const Contact = ({classes}) => {
             {/*</Form>*/}
           {/*</Col>*/}
 
-          <Col xs="12" xl="6">
+          <Col xs="12" xl={{ size: 6, offset: 3 }}>
             <Alert color="info">
-              Vous pouvez nous joindre par e-mail ou par téléphone&nbsp;:<br/>
+              Vous pouvez nous joindre par e-mail ou par téléphone&nbsp;:<br />
               <ul>
                 <li>
                   <strong>Téléphone:</strong> 06 73 51 77 04
                 </li>
                 <li>
-                  <strong>Email:</strong> <a href="mailto:vauclusechatounerie@gmail.com?subject=[Chatounerie] Demande de renseignements&body=Bonjour,">vauclusechatounerie@gmail.com</a>
+                  <strong>Email:</strong>
+                  <a href="mailto:vauclusechatounerie@gmail.com?subject=[Chatounerie] Demande de renseignements&body=Bonjour,">vauclusechatounerie@gmail.com</a>
                 </li>
                 <li>
                   <strong>Adresse:</strong> 899 B Chemin du Moulin D'Oise, 84440 Robion
