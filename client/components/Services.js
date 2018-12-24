@@ -1,7 +1,7 @@
 import React from 'react';
 import withSheet from 'react-jss';
 import {
-  Card, Button, Col, Row, CardText, CardBlock,
+  Card, Button, Col, Row, CardText, CardBody,
   CardTitle, Jumbotron
 } from 'reactstrap';
 
@@ -24,7 +24,7 @@ const Services = ({classes, toggleConditionsModal}) => {
     >
       <Jumbotron style={{ paddingBottom: 'none' }}>
         <Card className="mb-3">
-          <CardBlock>
+          <CardBody>
             <CardTitle>Prestations et Services </CardTitle>
             <CardText tag="div">
               <br/>
@@ -34,13 +34,13 @@ const Services = ({classes, toggleConditionsModal}) => {
                 Veuillez <strong>consulter</strong> nos <Button onClick={toggleConditionsModal} color="info">Conditions Générales d'Utilisation</Button>
               </div>
             </CardText>
-          </CardBlock>
+          </CardBody>
         </Card>
 
         <Row>
           <Col className="mb-3" xs="12" md="6">
             <Card className="mb-3">
-              <CardBlock>
+              <CardBody>
                 <CardTitle>Lieu de vie</CardTitle>
                 <CardText tag="div">
                   <ul>
@@ -58,13 +58,13 @@ const Services = ({classes, toggleConditionsModal}) => {
                     </li>
                   </ul>
                 </CardText>
-              </CardBlock>
+              </CardBody>
             </Card>
           </Col>
 
           <Col className="mb-3" xs="12" md="6">
             <Card className="item">
-              <CardBlock>
+              <CardBody>
                 <CardTitle>Nos installations</CardTitle>
                 <CardText tag="div">
                   <ul>
@@ -81,7 +81,7 @@ const Services = ({classes, toggleConditionsModal}) => {
                     </li>
                   </ul>
                 </CardText>
-              </CardBlock>
+              </CardBody>
             </Card>
           </Col>
         </Row>
@@ -89,7 +89,7 @@ const Services = ({classes, toggleConditionsModal}) => {
         <Row>
           <Col className="mb-3" xs="12" md="6">
             <Card className="mb-3">
-              <CardBlock>
+              <CardBody>
                 <CardTitle>La restauration</CardTitle>
                 <CardText tag="div">
                   <ul>
@@ -104,13 +104,13 @@ const Services = ({classes, toggleConditionsModal}) => {
                     </li>
                   </ul>
                 </CardText>
-              </CardBlock>
+              </CardBody>
             </Card>
           </Col>
 
           <Col className="mb-3" xs="12" md="6">
             <Card className="item">
-              <CardBlock>
+              <CardBody>
                 <CardTitle>Les soins vétérinaires</CardTitle>
                 <CardText tag="div">
                   <ul>
@@ -125,7 +125,7 @@ const Services = ({classes, toggleConditionsModal}) => {
                     </li>
                   </ul>
                 </CardText>
-              </CardBlock>
+              </CardBody>
             </Card>
           </Col>
         </Row>

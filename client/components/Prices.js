@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import withSheet from 'react-jss';
 import classNames from 'classnames';
 import {
-  Card, Alert, Col, Row, CardText, CardBlock,
+  Card, Alert, Col, Row, CardText, CardBody,
   CardTitle, Table,
   TabContent, TabPane, Nav, NavItem, NavLink
 } from 'reactstrap';
@@ -42,9 +42,9 @@ class Prices extends Component {
         className={classNames(classes.container)}
       >
         <Card className={classNames('mb-3')}>
-          <CardBlock className="bg-faded">
+          <CardBody className="bg-faded">
             <Card className="mb-5 mt-5">
-              <CardBlock>
+              <CardBody>
                 <CardTitle>Tarification et fonctionnement</CardTitle>
                 <CardText tag="div">
                   <ul>
@@ -71,13 +71,13 @@ class Prices extends Component {
                     </li>
                   </ul>
                 </CardText>
-              </CardBlock>
+              </CardBody>
             </Card>
 
             <Row>
               <Col xs={12} md={6}>
                 <Card className="mb-3">
-                  <CardBlock>
+                  <CardBody>
                     <CardTitle>Dates de Haute saison</CardTitle>
                     <CardText tag="div">
                       <Table striped hover responsive>
@@ -126,7 +126,7 @@ class Prices extends Component {
                         <strong>Basse Saison:</strong> Toute période non indiquée ci-dessus est en Basse saison.
                       </Alert>
                     </CardText>
-                  </CardBlock>
+                  </CardBody>
                 </Card>
               </Col>
 
@@ -152,7 +152,7 @@ class Prices extends Component {
                 <TabContent activeTab={this.state.activeTab}>
                   <TabPane tabId="1">
                     <Card className="mb-3">
-                      <CardBlock>
+                      <CardBody>
                         <CardTitle>Tarifs en Basse Saison</CardTitle>
                         <CardText tag="div">
                           <Table striped hover responsive>
@@ -183,12 +183,12 @@ class Prices extends Component {
                             <small>(Uniquement en cas de visite chez le vétérinaire)</small>
                           </Alert>
                         </CardText>
-                      </CardBlock>
+                      </CardBody>
                     </Card>
                   </TabPane>
                   <TabPane tabId="2">
                     <Card className="mb-3">
-                      <CardBlock>
+                      <CardBody>
                         <CardTitle>Tarifs en Haute Saison</CardTitle>
                         <CardText tag="div">
                           <Table striped hover responsive>
@@ -219,7 +219,7 @@ class Prices extends Component {
                             <small>(Uniquement en cas de visite chez le vétérinaire)</small>
                           </Alert>
                         </CardText>
-                      </CardBlock>
+                      </CardBody>
                     </Card>
                   </TabPane>
                 </TabContent>
@@ -232,7 +232,7 @@ class Prices extends Component {
               </Col>
             </Row>
 
-          </CardBlock>
+          </CardBody>
         </Card>
       </section>
     );

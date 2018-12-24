@@ -3,7 +3,6 @@ import Document, { Head, Main, NextScript } from 'next/document';
 import flush from 'styled-jsx/server';
 import useragent from 'useragent';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default class MyDocument extends Document {
 
@@ -32,7 +31,7 @@ export default class MyDocument extends Document {
       <html>
         <Head>
           <style>{styles}</style>
-          <link rel="stylesheet" href={'https://storage.googleapis.com/unly/libs/animate.css'} />
+          {/*<link rel="stylesheet" href={'https://storage.googleapis.com/unly/libs/animate.css'} />*/}
           <script src="https://storage.googleapis.com/studylink/libs/fontawesome-pro-5.3.1-web/js/all.min.js" />
 
           { // XXX Add polyfill for IE, since it's lacking many basic features such as Array.find and won't work without them
@@ -43,7 +42,7 @@ export default class MyDocument extends Document {
             )
           }
         </Head>
-        <body className="loan-advisor">
+        <body>
           <Main />
           <NextScript />
         </body>

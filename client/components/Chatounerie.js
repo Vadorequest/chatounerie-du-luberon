@@ -1,7 +1,7 @@
 import React from 'react';
 import withSheet from 'react-jss';
 import {
-  Card, CardImg, Col, Row, CardText, CardBlock,
+  Card, CardImg, Col, Row, CardText, CardBody,
   CardTitle, Jumbotron
 } from 'reactstrap';
 
@@ -27,59 +27,59 @@ const Chatounerie = ({classes}) => {
     >
       <Jumbotron style={{ paddingBottom: 'none' }}>
         <Card className="mb-3">
-          <CardBlock>
+          <CardBody>
             <CardTitle>Vous partez en week end ou en vacances, laissez nous votre chat, nous nous en occupons&nbsp;!</CardTitle>
             <CardText>
               La chatounerie, notre petite pension féline est située à 30 Km d'Avignon, 37 Km de Salon de Provence et 27 Km d'Apt.<br/>
               En plein coeur du <strong>Luberon</strong>, proche des communes de Gordes, Lacoste, Roussillon et Lourmarin, en Vaucluse.<br/>
             </CardText>
-          </CardBlock>
+          </CardBody>
         </Card>
 
         <Row>
           <Col className="mb-3" xs="12" md="6" lg="3">
             <Card className="item">
               <CardImg tag="i" className="fa fa-graduation-cap fa-3x pt-3 icon"></CardImg>
-              <CardBlock>
+              <CardBody>
                 <CardTitle>Éleveur professionnel</CardTitle>
                 <CardText>
                   Grande passionnée d'animaux, cette chatounerie est un lieu confortable pour les chats.<br/>
                   <strong>Diplômée Cetac "Chats" et "Chiens".</strong>
                 </CardText>
-              </CardBlock>
+              </CardBody>
             </Card>
           </Col>
 
           <Col className="mb-3" xs="12" md="6" lg="3">
             <Card className="item">
               <CardImg tag="i" className="fa fa-users fa-3x pt-3 icon"></CardImg>
-              <CardBlock>
+              <CardBody>
                 <CardTitle>Disponibles</CardTitle>
                 <CardText>
                   Vous redoutez de confier votre animal de compagnie à n'importe qui ? Venez <strong>découvrir nos locaux</strong>&nbsp;!<br/>
                   Notre pension est ouverte toute l'année du lundi au samedi.<br/>
                 </CardText>
-              </CardBlock>
+              </CardBody>
             </Card>
           </Col>
 
           <Col className="mb-3" xs="12" md="6" lg="3">
             <Card className="item">
               <CardImg tag="i" className="fa fa-comments-o fa-3x pt-3 icon"></CardImg>
-              <CardBlock>
+              <CardBody>
                 <CardTitle>À l'écoute</CardTitle>
                 <CardText>Nous sommes <strong>à l'écoute de nos clients et de leurs besoins</strong>, et pratiquons des <strong>tarifs dégressifs</strong> en fonction le nombre d'animaux et la durée de séjour.</CardText>
-              </CardBlock>
+              </CardBody>
             </Card>
           </Col>
 
           <Col className="mb-3" xs="12" md="6" lg="3">
             <Card className="item">
               <CardImg tag="i" className="fa fa-h-square fa-3x pt-3 icon"></CardImg>
-              <CardBlock>
+              <CardBody>
                 <CardTitle>Soins à proximité</CardTitle>
                 <CardText>La clinique vétérinaire est située à <strong>3 minutes</strong> de la Chatounerie, <strong>ouverte 24/24, 7/7</strong>.</CardText>
-              </CardBlock>
+              </CardBody>
             </Card>
           </Col>
 
