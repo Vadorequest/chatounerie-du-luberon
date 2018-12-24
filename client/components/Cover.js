@@ -68,12 +68,12 @@ const styles = {
       animation: 'bounce 1s infinite',
       '& i': {
         paddingTop: 10,
-      }
-    }
-  }
+      },
+    },
+  },
 };
 
-const Cover = ({classes, screenHeight, config}) => {
+const Cover = ({ classes, screenHeight, config }) => {
   const coversPath = '/static/images/covers/';
   const covers = config.covers.items;
   const coversLength = covers.length - 1;
@@ -105,7 +105,7 @@ const Cover = ({classes, screenHeight, config}) => {
         className={classNames(classes.scrollDown, 'pointer')}
       >
         <span>
-          <i className="fas fa-angle-down fa-2x"></i>
+          <i className="fas fa-angle-down fa-2x" style={{ marginTop: 10 }}></i>
         </span>
       </a>
     </section>
