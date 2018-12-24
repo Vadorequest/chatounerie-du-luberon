@@ -79,7 +79,7 @@ class App extends Component {
           ],
         },
         googleMap: {
-          key: '',
+          key: 'AIzaSyBz_W0a977iZN50Eti9qOQnva9CYoREaOw',
         },
       },
     };
