@@ -31,6 +31,7 @@ import Map from '../components/Map';
 import Footer from '../components/Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import '../styles.css';
 
 class App extends Component {
@@ -68,13 +69,56 @@ class App extends Component {
               filename: 'office1-min.jpg',
               legend: 'La Chatounerie, vue de l\'extérieur',
             },
+            {
+              filename: 'office2-min.jpg',
+              legend: 'La Chatounerie, vue de l\'intérieur',
+            },
           ],
         },
         galleryCats: {
           items: [
             {
-              filename: 'office1-min.jpg',
+              filename: '55831_PLA_Rosewood_Heizungsliege_2_in_1_HS_69501_luxury_cat_bed_01_5.jpg',
+            },
+            {
+              filename: 'a-OISEAUX-ET-CHATS-640x468.jpg',
+            },
+            {
+              filename: 'annonce-chaton-a-donner-paris-carnet-de-sante.jpg',
+            },
+            {
+              filename: 'arbre-descendre-coincé-chat-aider-technique-méthode-explication-secourir-comment-faire-compagnie-animal-animaux-compagnie-animogen-2.jpg',
+            },
+            {
+              filename: 'best friend forever003_.jpg',
               legend: 'La Chatounerie, vue de l\'extérieur',
+            },
+            {
+              filename: 'chat-stethoscope-2.jpg',
+            },
+            {
+              filename: 'DSCN8414 - Copie.JPG',
+            },
+            {
+              filename: 'Gastby.JPG',
+            },
+            {
+              filename: 'Gatsby et Vanillou.JPG',
+            },
+            {
+              filename: 'Lola.jpg',
+            },
+            {
+              filename: 'Mila.JPG',
+            },
+            {
+              filename: 'Prunette.JPG',
+            },
+            {
+              filename: 'Vanillou.JPG',
+            },
+            {
+              filename: 'Vanillou 2.JPG',
             },
           ],
         },

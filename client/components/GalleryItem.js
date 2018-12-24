@@ -6,7 +6,7 @@ const GaleryItem = ({height, src, legend}) => {
   return (
     <div>
       <img
-        src={`/static/images/galeryOffice/${src}`}
+        src={`${src}`}
         height={height}
         alt={legend}
       />
