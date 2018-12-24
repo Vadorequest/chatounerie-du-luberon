@@ -1,10 +1,15 @@
 {
   "name": "chatounerie-du-luberon",
   "scripts": {
-    "ps:3000": "sudo lsof -i tcp:3000",
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export -o .dist",
+    "deploy": "yarn build && yarn export && firebase deploy",
+    "deploy:simple": "firebase deploy",
+    "ps:3000": "sudo lsof -i tcp:3000",
+    "login": "firebase login",
+    "logout": "firebase logout"
   },
   "dependencies": {
     "@zeit/next-css": "1.0.1",
@@ -29,5 +34,8 @@
     "smoothscroll": "0.3.0",
     "styled-jsx": "3.1.2",
     "useragent": "2.3.0"
+  },
+  "devDependencies": {
+    "firebase-tools": "6.2.2"
   }
 }

@@ -91,7 +91,7 @@ jspm_packages
 .serverless
 .webpack
 .next
-dist
+.dist
 
 .DS_Store
 .sls-simulate-registry
