@@ -100,7 +100,8 @@ const Services = ({classes, toggleConditionsModal}) => {
                     </li>
                     <li>
                       Dans nos tarifs, la pension, la nourriture, la litière, les soins de base ainsi que l'administration de médicaments sur ordonnance sont compris.
-                      &nbsp;<small>(Il n'y a pas de supplément <i>"caché"</i></small>
+                      &nbsp;<br />
+                      <small>Il n'y a pas de supplément <i>"caché"</i></small>
                     </li>
                   </ul>
                 </CardText>
