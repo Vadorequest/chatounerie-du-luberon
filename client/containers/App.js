@@ -4,7 +4,6 @@ import classNames from 'classnames';
 import {
   Alert,
   Button,
-  Card,
   CardBody,
   CardText,
   Col,
@@ -47,25 +46,36 @@ class App extends Component {
         covers: {
           items: [
             {
-              filename: 'office1-min.jpg',
-              legend: 'La Chatounerie, vue de l\'extérieur'
-            }
+              filename: 'cover1-min.jpg',
+            },
+            {
+              filename: 'cover2-min.jpg',
+            },
+            {
+              filename: 'cover3-min.jpg',
+            },
+            {
+              filename: 'cover4-min.jpg',
+            },
+            {
+              filename: 'cover5-min.jpg',
+            },
           ],
         },
         galleryOffice: {
           items: [
             {
               filename: 'office1-min.jpg',
-              legend: 'La Chatounerie, vue de l\'extérieur'
-            }
+              legend: 'La Chatounerie, vue de l\'extérieur',
+            },
           ],
         },
         galleryCats: {
           items: [
             {
               filename: 'office1-min.jpg',
-              legend: 'La Chatounerie, vue de l\'extérieur'
-            }
+              legend: 'La Chatounerie, vue de l\'extérieur',
+            },
           ],
         },
         googleMap: {

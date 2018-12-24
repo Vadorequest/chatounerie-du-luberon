@@ -33,12 +33,12 @@ const Footer = ({classes, toggleConditionsModal}) => {
             </div>
             <div>
               <i className="fas fa-phone"></i> <strong>Portable :</strong> 06 73 51 77 04<br/>
-              <i className="fas fa-envelope-o"></i> <strong>Email :</strong> vauclusechatounerie@gmail.com
+              <i className="fas fa-envelope"></i> <strong>Email :</strong> vauclusechatounerie@gmail.com
             </div>
           </Col>
           <Col>
             <div>
-              <i className="fas fa-address-card-o"></i> <strong>Identification éleveur professionel:</strong><br/>
+              <i className="fas fa-address-card"></i> <strong>Identification éleveur professionel:</strong><br/>
               <div className={classes.subfooter}>
                 Certificat de capacité N°C2660<br/>
                 CETAC N°84 115<br/>

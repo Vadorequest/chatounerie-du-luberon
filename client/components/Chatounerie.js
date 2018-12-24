@@ -1,9 +1,6 @@
 import React from 'react';
 import withSheet from 'react-jss';
-import {
-  Card, CardImg, Col, Row, CardText, CardBody,
-  CardTitle, Jumbotron
-} from 'reactstrap';
+import { Card, CardBody, CardImg, CardText, CardTitle, Col, Jumbotron, Row } from 'reactstrap';
 
 const styles = {
   container: {
@@ -15,11 +12,11 @@ const styles = {
     },
     '& .item': {
       minHeight: 275,
-    }
-  }
+    },
+  },
 };
 
-const Chatounerie = ({classes}) => {
+const Chatounerie = ({ classes }) => {
   return (
     <section
       id="chatounerie"
@@ -30,8 +27,8 @@ const Chatounerie = ({classes}) => {
           <CardBody>
             <CardTitle>Vous partez en week end ou en vacances, laissez nous votre chat, nous nous en occupons&nbsp;!</CardTitle>
             <CardText>
-              La chatounerie, notre petite pension féline est située à 30 Km d'Avignon, 37 Km de Salon de Provence et 27 Km d'Apt.<br/>
-              En plein coeur du <strong>Luberon</strong>, proche des communes de Gordes, Lacoste, Roussillon et Lourmarin, en Vaucluse.<br/>
+              La chatounerie, notre petite pension féline est située à 30 Km d'Avignon, 37 Km de Salon de Provence et 27 Km d'Apt.<br />
+              En plein coeur du <strong>Luberon</strong>, proche des communes de Gordes, Lacoste, Roussillon et Lourmarin, en Vaucluse.<br />
             </CardText>
           </CardBody>
         </Card>
@@ -39,11 +36,11 @@ const Chatounerie = ({classes}) => {
         <Row>
           <Col className="mb-3" xs="12" md="6" lg="3">
             <Card className="item">
-              <CardImg tag="i" className="fas fa-graduation-cap fa-3x pt-3 icon"></CardImg>
+              <CardImg tag="i" className="fas fa-graduation-cap fa-3x pt-3 icon" />
               <CardBody>
                 <CardTitle>Éleveur professionnel</CardTitle>
                 <CardText>
-                  Grande passionnée d'animaux, cette chatounerie est un lieu confortable pour les chats.<br/>
+                  Grande passionnée d'animaux, cette chatounerie est un lieu confortable pour les chats.<br />
                   <strong>Diplômée Cetac "Chats" et "Chiens".</strong>
                 </CardText>
               </CardBody>
@@ -52,12 +49,12 @@ const Chatounerie = ({classes}) => {
 
           <Col className="mb-3" xs="12" md="6" lg="3">
             <Card className="item">
-              <CardImg tag="i" className="fas fa-users fa-3x pt-3 icon"></CardImg>
+              <CardImg tag="i" className="fas fa-users fa-3x pt-3 icon" />
               <CardBody>
                 <CardTitle>Disponibles</CardTitle>
                 <CardText>
-                  Vous redoutez de confier votre animal de compagnie à n'importe qui ? Venez <strong>découvrir nos locaux</strong>&nbsp;!<br/>
-                  Notre pension est ouverte toute l'année du lundi au samedi.<br/>
+                  Vous redoutez de confier votre animal de compagnie à n'importe qui ? Venez <strong>découvrir nos locaux</strong>&nbsp;!<br />
+                  Notre pension est ouverte toute l'année du lundi au samedi.<br />
                 </CardText>
               </CardBody>
             </Card>
@@ -65,7 +62,7 @@ const Chatounerie = ({classes}) => {
 
           <Col className="mb-3" xs="12" md="6" lg="3">
             <Card className="item">
-              <CardImg tag="i" className="fas fa-comments-o fa-3x pt-3 icon"></CardImg>
+              <CardImg tag="i" className="fas fa-comments fa-3x pt-3 icon" />
               <CardBody>
                 <CardTitle>À l'écoute</CardTitle>
                 <CardText>Nous sommes <strong>à l'écoute de nos clients et de leurs besoins</strong>, et pratiquons des <strong>tarifs dégressifs</strong> en fonction le nombre d'animaux et la durée de séjour.</CardText>
@@ -75,7 +72,7 @@ const Chatounerie = ({classes}) => {
 
           <Col className="mb-3" xs="12" md="6" lg="3">
             <Card className="item">
-              <CardImg tag="i" className="fas fa-h-square fa-3x pt-3 icon"></CardImg>
+              <CardImg tag="i" className="fas fa-h-square fa-3x pt-3 icon" />
               <CardBody>
                 <CardTitle>Soins à proximité</CardTitle>
                 <CardText>La clinique vétérinaire est située à <strong>3 minutes</strong> de la Chatounerie, <strong>ouverte 24/24, 7/7</strong>.</CardText>
