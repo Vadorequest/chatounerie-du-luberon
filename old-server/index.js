@@ -125,7 +125,7 @@ server.register([
     path: '/{path*}',
     handler: {
       directory: {
-        path: path.join(__dirname, '../client/build'),
+        path: path.join(__dirname, '../old-client/build'),
         listing: false,
         index: true
       }

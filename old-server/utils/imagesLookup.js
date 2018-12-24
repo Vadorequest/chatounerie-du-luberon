@@ -3,7 +3,7 @@ const path = require('path');
 const readdir = require('fs-readdir-promise');
 const find = require('lodash.find');
 
-const imagesPath = path.join(__dirname, '../../client/public/images/');
+const imagesPath = path.join(__dirname, '../../old-client/public/images/');
 
 const lookupFolder = (config, key) => {
   const picturesInConfig = config[key].items;
