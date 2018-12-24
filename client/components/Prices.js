@@ -97,12 +97,12 @@ class Prices extends Component {
                           <tr>
                             <th scope="row">Hiver</th>
                             <td>9 Février 2019</td>
-                            <td>24 Février 2019</td>
+                            <td>25 Février 2019</td>
                           </tr>
                           <tr>
                             <th scope="row">Printemps</th>
-                            <td>5 Avril 2019</td>
-                            <td>23 Avril 2019</td>
+                            <td>6 Avril 2019</td>
+                            <td>22 Avril 2019</td>
                           </tr>
                           <tr>
                             <th scope="row">Ascension</th>
@@ -111,18 +111,18 @@ class Prices extends Component {
                           </tr>
                           <tr>
                             <th scope="row">Été</th>
-                            <td>1er Juillet 2019</td>
-                            <td>04 Septembre 2019</td>
+                            <td>06 Juillet 2019</td>
+                            <td>03 Septembre 2019</td>
                           </tr>
                           <tr>
                             <th scope="row">Toussaint</th>
-                            <td>1er juillet 2017</td>
-                            <td>04 septembre 2017</td>
+                            <td>17 Octobre 2019</td>
+                            <td>04 novembre 2019</td>
                           </tr>
                           <tr>
                             <th scope="row">Hiver</th>
-                            <td>21 Octobre 2017</td>
-                            <td>06 Novembre 2017</td>
+                            <td>21 Décembre 2019</td>
+                            <td>06 Janvier 2020</td>
                           </tr>
                         </tbody>
                       </Table>
