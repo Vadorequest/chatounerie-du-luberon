@@ -51,7 +51,7 @@ class Map extends Component {
           loadingElement={
             <div style={{ height: `100%` }}>
               <div
-                className="fa fa-spin"
+                className="fas fa-spin"
                 style={{
                   display: `block`,
                   width: `80px`,

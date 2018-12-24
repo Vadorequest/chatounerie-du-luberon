@@ -105,7 +105,7 @@ const Cover = ({classes, screenHeight, config}) => {
         className={classNames(classes.scrollDown, 'pointer')}
       >
         <span>
-          <i className="fa fa-angle-down fa-2x"></i>
+          <i className="fas fa-angle-down fa-2x"></i>
         </span>
       </a>
     </section>

@@ -1,7 +1,24 @@
 import React, { Component } from 'react';
 import { ToastContainer } from 'react-toastify';
 import classNames from 'classnames';
-import { Alert, Button, Card, CardText, Col, Modal, ModalBody, ModalFooter, ModalHeader, Nav, NavItem, NavLink, Row, TabContent, TabPane } from 'reactstrap';
+import {
+  Alert,
+  Button,
+  Card,
+  CardBody,
+  CardText,
+  Col,
+  Modal,
+  ModalBody,
+  ModalFooter,
+  ModalHeader,
+  Nav,
+  NavItem,
+  NavLink,
+  Row,
+  TabContent,
+  TabPane,
+} from 'reactstrap';
 
 import Cover from '../components/Cover';
 import Navbar from '../components/Navbar';
@@ -169,7 +186,7 @@ class App extends Component {
               <TabPane tabId="1">
                 <Row>
                   <Col>
-                    <Card block>
+                    <CardBody>
                       <CardText>
                         <Alert color="info">
                           En nous confiant la garde de son animal, le propriétaire adhère totalement aux présentes conditions générales.
@@ -211,15 +228,14 @@ class App extends Component {
                           Le prix de la pension comprend la nourriture. Cependant, si vous préférez nous apporter ses croquettes favorites nous pourrons lui en mettre à disposition, sans que cela n'affecte le montant de la pension.
                         </Alert>
                       </CardText>
-                    </Card>
+                    </CardBody>
                   </Col>
                 </Row>
               </TabPane>
               <TabPane tabId="2">
                 <Row>
                   <Col>
-
-                    <Card block>
+                    <CardBody>
                       <CardText>
                         <Alert color="info">
                           En nous confiant la garde de son animal, le propriétaire adhère totalement aux présentes conditions générales.
@@ -305,7 +321,7 @@ class App extends Component {
                           </ul>
                         </Alert>
                       </CardText>
-                    </Card>
+                    </CardBody>
                   </Col>
                 </Row>
               </TabPane>
@@ -327,7 +343,7 @@ class App extends Component {
         marginTop: '45vh',
       }}
       >
-        <i className="fa fa-spinner fa-pulse fa-4x fa-fw"></i>
+        <i className="fas fa-spinner fa-pulse fa-4x fa-fw"></i>
       </div>
     );
   }

@@ -24,7 +24,7 @@ const Footer = ({classes, toggleConditionsModal}) => {
         <Row>
           <Col>
             <div>
-              <i className="fa fa-map-marker"></i> <strong>Adresse:</strong><br/>
+              <i className="fas fa-map-marker"></i> <strong>Adresse:</strong><br/>
               <div className={classes.subfooter}>
                 La chatounerie du Luberon<br/>
                 899 B Chemin du Moulin D'Oise<br/>
@@ -32,20 +32,20 @@ const Footer = ({classes, toggleConditionsModal}) => {
               </div>
             </div>
             <div>
-              <i className="fa fa-phone"></i> <strong>Portable :</strong> 06 73 51 77 04<br/>
-              <i className="fa fa-envelope-o"></i> <strong>Email :</strong> vauclusechatounerie@gmail.com
+              <i className="fas fa-phone"></i> <strong>Portable :</strong> 06 73 51 77 04<br/>
+              <i className="fas fa-envelope-o"></i> <strong>Email :</strong> vauclusechatounerie@gmail.com
             </div>
           </Col>
           <Col>
             <div>
-              <i className="fa fa-address-card-o"></i> <strong>Identification éleveur professionel:</strong><br/>
+              <i className="fas fa-address-card-o"></i> <strong>Identification éleveur professionel:</strong><br/>
               <div className={classes.subfooter}>
                 Certificat de capacité N°C2660<br/>
                 CETAC N°84 115<br/>
                 N° Siret 43875234700031​
               </div>
               <div>
-                <i className="fa fa-book"></i> <a onClick={toggleConditionsModal}>Conditions Générales d'Utilisation</a><br/>
+                <i className="fas fa-book"></i> <a onClick={toggleConditionsModal}>Conditions Générales d'Utilisation</a><br/>
               </div>
             </div>
           </Col>

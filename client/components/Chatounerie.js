@@ -39,7 +39,7 @@ const Chatounerie = ({classes}) => {
         <Row>
           <Col className="mb-3" xs="12" md="6" lg="3">
             <Card className="item">
-              <CardImg tag="i" className="fa fa-graduation-cap fa-3x pt-3 icon"></CardImg>
+              <CardImg tag="i" className="fas fa-graduation-cap fa-3x pt-3 icon"></CardImg>
               <CardBody>
                 <CardTitle>Éleveur professionnel</CardTitle>
                 <CardText>
@@ -52,7 +52,7 @@ const Chatounerie = ({classes}) => {
 
           <Col className="mb-3" xs="12" md="6" lg="3">
             <Card className="item">
-              <CardImg tag="i" className="fa fa-users fa-3x pt-3 icon"></CardImg>
+              <CardImg tag="i" className="fas fa-users fa-3x pt-3 icon"></CardImg>
               <CardBody>
                 <CardTitle>Disponibles</CardTitle>
                 <CardText>
@@ -65,7 +65,7 @@ const Chatounerie = ({classes}) => {
 
           <Col className="mb-3" xs="12" md="6" lg="3">
             <Card className="item">
-              <CardImg tag="i" className="fa fa-comments-o fa-3x pt-3 icon"></CardImg>
+              <CardImg tag="i" className="fas fa-comments-o fa-3x pt-3 icon"></CardImg>
               <CardBody>
                 <CardTitle>À l'écoute</CardTitle>
                 <CardText>Nous sommes <strong>à l'écoute de nos clients et de leurs besoins</strong>, et pratiquons des <strong>tarifs dégressifs</strong> en fonction le nombre d'animaux et la durée de séjour.</CardText>
@@ -75,7 +75,7 @@ const Chatounerie = ({classes}) => {
 
           <Col className="mb-3" xs="12" md="6" lg="3">
             <Card className="item">
-              <CardImg tag="i" className="fa fa-h-square fa-3x pt-3 icon"></CardImg>
+              <CardImg tag="i" className="fas fa-h-square fa-3x pt-3 icon"></CardImg>
               <CardBody>
                 <CardTitle>Soins à proximité</CardTitle>
                 <CardText>La clinique vétérinaire est située à <strong>3 minutes</strong> de la Chatounerie, <strong>ouverte 24/24, 7/7</strong>.</CardText>

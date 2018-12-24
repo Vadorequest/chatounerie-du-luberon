@@ -50,43 +50,43 @@ const Contact = ({classes}) => {
         <h2 className="mb-3">Nous contacter</h2>
 
         <Row>
-          <Col xs="12" xl="6">
-            <Form id="formContact">
-              <FormGroup row>
-                <Label for="inputIdentity" sm={2}>Nom et prénom</Label>
-                <Col sm={10}>
-                  <Input name="inputIdentity" id="inputIdentity" placeholder="Nom et Prénom" />
-                </Col>
-              </FormGroup>
-              <FormGroup row>
-                <Label for="inputEmail" sm={2}>Adresse E-mail</Label>
-                <Col sm={10}>
-                  <Input type="email" name="inputEmail" id="inputEmail" placeholder="Adresse E-mail" />
-                </Col>
-              </FormGroup>
-              <FormGroup row>
-                <Label for="inputPhone" sm={2}>N° de téléphone</Label>
-                <Col sm={10}>
-                  <Input type="phone" name="inputPhone" id="inputPhone" placeholder="N° de téléphone" />
-                </Col>
-              </FormGroup>
-              <FormGroup row>
-                <Label for="inputMessage" sm={2}>Message</Label>
-                <Col sm={10}>
-                  <Input type="textarea" name="inputMessage" id="inputMessage" rows="8" placeholder="Merci d'indiquer le nombre de chats ainsi que les dates désirées" />
-                </Col>
-              </FormGroup>
-              <FormGroup check row>
-                <Col sm={{ size: 10, offset: 2 }}>
-                  <Button color="primary" onClick={sendForm}>Envoyer</Button>
-                </Col>
-              </FormGroup>
-            </Form>
-          </Col>
+          {/*<Col xs="12" xl="6">*/}
+            {/*<Form id="formContact">*/}
+              {/*<FormGroup row>*/}
+                {/*<Label for="inputIdentity" sm={2}>Nom et prénom</Label>*/}
+                {/*<Col sm={10}>*/}
+                  {/*<Input name="inputIdentity" id="inputIdentity" placeholder="Nom et Prénom" />*/}
+                {/*</Col>*/}
+              {/*</FormGroup>*/}
+              {/*<FormGroup row>*/}
+                {/*<Label for="inputEmail" sm={2}>Adresse E-mail</Label>*/}
+                {/*<Col sm={10}>*/}
+                  {/*<Input type="email" name="inputEmail" id="inputEmail" placeholder="Adresse E-mail" />*/}
+                {/*</Col>*/}
+              {/*</FormGroup>*/}
+              {/*<FormGroup row>*/}
+                {/*<Label for="inputPhone" sm={2}>N° de téléphone</Label>*/}
+                {/*<Col sm={10}>*/}
+                  {/*<Input type="phone" name="inputPhone" id="inputPhone" placeholder="N° de téléphone" />*/}
+                {/*</Col>*/}
+              {/*</FormGroup>*/}
+              {/*<FormGroup row>*/}
+                {/*<Label for="inputMessage" sm={2}>Message</Label>*/}
+                {/*<Col sm={10}>*/}
+                  {/*<Input type="textarea" name="inputMessage" id="inputMessage" rows="8" placeholder="Merci d'indiquer le nombre de chats ainsi que les dates désirées" />*/}
+                {/*</Col>*/}
+              {/*</FormGroup>*/}
+              {/*<FormGroup check row>*/}
+                {/*<Col sm={{ size: 10, offset: 2 }}>*/}
+                  {/*<Button color="primary" onClick={sendForm}>Envoyer</Button>*/}
+                {/*</Col>*/}
+              {/*</FormGroup>*/}
+            {/*</Form>*/}
+          {/*</Col>*/}
 
           <Col xs="12" xl="6">
             <Alert color="info">
-              Vous pouvez également nous joindre par e-mail ou par téléphone&nbsp;:<br/>
+              Vous pouvez nous joindre par e-mail ou par téléphone&nbsp;:<br/>
               <ul>
                 <li>
                   <strong>Téléphone:</strong> 06 73 51 77 04
