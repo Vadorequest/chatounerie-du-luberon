@@ -19,15 +19,15 @@ class App extends Component {
     super(props);
 
     this.state = {
-      screenWidth: '0',
-      screenHeight: '0',
+      screenWidth: 0,
+      screenHeight: 0,
       isConditionsModalOpen: false,
       conditionsModalActiveTab: '1',
       config: {
         covers: {
           items: [
             {
-              filename: 'office1.jpg',
+              filename: 'office1-min.jpg',
               legend: 'La Chatounerie, vue de l\'extérieur'
             }
           ],
@@ -35,7 +35,7 @@ class App extends Component {
         galleryOffice: {
           items: [
             {
-              filename: 'office1.jpg',
+              filename: 'office1-min.jpg',
               legend: 'La Chatounerie, vue de l\'extérieur'
             }
           ],
@@ -43,7 +43,7 @@ class App extends Component {
         galleryCats: {
           items: [
             {
-              filename: 'office1.jpg',
+              filename: 'office1-min.jpg',
               legend: 'La Chatounerie, vue de l\'extérieur'
             }
           ],
@@ -344,6 +344,38 @@ class App extends Component {
             this.renderApp()
           )
         }
+
+        <style global jsx>{`
+          body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+          }
+
+          @-webkit-keyframes bounce {
+            0%       { bottom: 3px; }
+            25%, 75% { bottom: 7px; }
+            50%      { bottom: 10px; }
+            100%     {bottom: 0;}
+          }
+
+          .pointer {
+            cursor: pointer;
+          }
+
+          .btn, a {
+            cursor: pointer;
+          }
+
+          .toastify {
+            z-index: 11;
+          }
+
+          .jumbotron {
+            background-color: rgb(245, 245, 245);
+          }
+
+        `}</style>
       </div>
     );
   }

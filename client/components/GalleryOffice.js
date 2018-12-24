@@ -45,7 +45,7 @@ const GalleryOffice = ({classes, screenHeight, config}) => {
           config.galleryOffice.items.map((item, index) => (
             <GalleryItem
               key={index}
-              src={`../../images/galleryOffice/${item.filename}`}
+              src={`/static/images/galleryOffice/${item.filename}`}
               height={maxImageHeight}
               legend={item.legend}
             />
