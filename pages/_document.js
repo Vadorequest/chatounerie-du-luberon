@@ -25,7 +25,7 @@ export default class MyDocument extends Document {
     // console.log('styles', JSON.stringify(styles, null, 2))
 
     return (
-      <html>
+      <html lang={'fr'}>
         <Head>
           <meta charSet="utf-8" />
           <meta
