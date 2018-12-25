@@ -1,9 +1,6 @@
 import React from 'react';
 import withSheet from 'react-jss';
-import {
-  Card, Button, Col, Row, CardText, CardBody,
-  CardTitle, Jumbotron
-} from 'reactstrap';
+import { Button, Card, CardBody, CardText, CardTitle, Col, Jumbotron, Row } from 'reactstrap';
 
 const styles = {
   container: {
@@ -16,7 +13,7 @@ const styles = {
   },
 };
 
-const Services = ({classes, toggleConditionsModal}) => {
+const Services = ({ classes, toggleConditionsModal }) => {
   return (
     <section
       id="services"
@@ -27,10 +24,10 @@ const Services = ({classes, toggleConditionsModal}) => {
           <CardBody>
             <CardTitle>Prestations et Services </CardTitle>
             <CardText tag="div">
-              <br/>
-              ​​Notre Chatounerie est un lieu convivial qui permettra à votre chat de séjourner agréablement en attendant votre retour.<br/>
-              Il pourra y recevoir les caresses et les soins nécessaires dont il a besoin et ce, avec toute notre attention.<br/><br/>
-              <div style={{textAlign: 'right'}}>
+              <br />
+              ​​Notre Chatounerie est un lieu convivial qui permettra à votre chat de séjourner agréablement en attendant votre retour.<br />
+              Il pourra y recevoir les caresses et les soins nécessaires dont il a besoin et ce, avec toute notre attention.<br /><br />
+              <div style={{ textAlign: 'right' }}>
                 Veuillez <strong>consulter</strong> nos <Button onClick={toggleConditionsModal} color="info">Conditions Générales d'Utilisation</Button>
               </div>
             </CardText>
@@ -96,7 +93,11 @@ const Services = ({classes, toggleConditionsModal}) => {
                     <li>
                       L'alimentation que nous avons choisie pour nos fins gourmets est réputée être de qualité.
                       Nous avons opté pour des croquettes Royal Canin, sensible 33, pour permettre une bonne digestion, même pour les plus délicats.
-                      <img src="/static/images/cat-mouse.jpg" style={{ width: '100%'}} alt="Cat eats mouse" />
+                      <img
+                        src="/static/images/cat-mouse.jpg"
+                        style={{ width: '100%' }}
+                        alt="Cat eats mouse"
+                      />
                     </li>
                     <li>
                       Dans nos tarifs, la pension, la nourriture, la litière, les soins de base ainsi que l'administration de médicaments sur ordonnance sont compris.

@@ -49,6 +49,7 @@ const GalleryCats = ({classes, screenHeight, config}) => {
             <GalleryItem
               key={index}
               src={`/static/images/galleryCats/${item.filename}`}
+              alt={`Photo de chats à la Chatounerie`}
               height={maxImageHeight}
               legend={item.legend}
             />

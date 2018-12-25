@@ -1,14 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const GaleryItem = ({height, src, legend}) => {
+const GaleryItem = ({ height, src, legend, alt = '' }) => {
 
   return (
     <div>
       <img
         src={`${src}`}
         height={height}
-        alt={legend}
+        alt={alt || legend}
       />
       {
         legend && legend.length && (
