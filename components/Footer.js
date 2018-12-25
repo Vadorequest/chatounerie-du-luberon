@@ -49,13 +49,6 @@ const Footer = ({classes, toggleConditionsModal}) => {
               </div>
             </div>
           </Col>
-          <Col>
-            <div>
-              <a href="http://www.annuaire-felin.com/"><img src="http://www.annuaire-felin.com/logochats.jpg" title="l'annuaire gratuits des chats" alt="l'annuaire gratuit des chats" /></a>
-              &nbsp;
-              <a href="http://www.annuaire-felin.fr/"><img src="http://www.annuaire-felin.fr/referencement.jpg" title="Felin L'annuaire des éleveurs" alt="Felin L'annuaire des éleveurs"/></a>
-            </div>
-          </Col>
         </Row>
       </Container>
     </section>
