@@ -2,8 +2,6 @@ import React from 'react';
 import Document, { Head, Main, NextScript } from 'next/document';
 import flush from 'styled-jsx/server';
 
-const GA_TRACKING_ID = 'UA-50488026-2';
-
 export default class MyDocument extends Document {
 
   /**
@@ -54,7 +52,6 @@ export default class MyDocument extends Document {
           <link rel="shortcut icon" href="/static/images/favicon.ico" />
 
           <style>{styles}</style>
-          {/*<link rel="stylesheet" href={'https://storage.googleapis.com/unly/libs/animate.css'} />*/}
           <script src="https://storage.googleapis.com/studylink/libs/fontawesome-pro-5.3.1-web/js/all.min.js" />
 
           <script
