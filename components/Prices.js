@@ -120,7 +120,7 @@ class Prices extends Component {
                             <td>04 novembre 2019</td>
                           </tr>
                           <tr>
-                            <th scope="row">Hiver</th>
+                            <th scope="row">Noël</th>
                             <td>21 Décembre 2019</td>
                             <td>06 Janvier 2020</td>
                           </tr>
