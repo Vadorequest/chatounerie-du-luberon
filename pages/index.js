@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import Head from 'next/head';
 
 import App from '../containers/App';
 
 export default () => (
-  <App />
+  <Fragment>
+    <Head>
+      <title>La Chatounerie du Luberon</title>
+    </Head>
+    <App />
+  </Fragment>
 )

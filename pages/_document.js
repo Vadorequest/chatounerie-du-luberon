@@ -29,7 +29,6 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
-          <title>La Chatounerie du Luberon</title>
           <meta charSet="utf-8" />
           <meta
             name="description"
