@@ -3,8 +3,8 @@
   "scripts": {
     "build": "next build",
     "start": "next",
-    "export": "next export -o .dist",
-    "deploy": "yarn build && yarn export && firebase deploy",
+    "export": "NODE_ENV=production next export -o .dist",
+    "deploy": "NODE_ENV=production yarn build && yarn export && firebase deploy",
     "deploy:simple": "firebase deploy",
     "ps": "sudo lsof -i tcp:3000",
     "login": "firebase login",
