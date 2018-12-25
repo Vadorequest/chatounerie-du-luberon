@@ -46,8 +46,8 @@ export default class MyDocument extends Document {
             content="Vous partez en week end ou en vacances, laissez nous votre chat, nous nous en occupons ! La Chatounerie, notre petite pension féline est située à 30 Km d'Avignon, 37 Km de Salon de Provence et 27 Km d'Apt."
           />
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="http://chatounerie-du-luberon.com/" />
-          <meta property="og:image" content="http://chatounerie-du-luberon.com/images/seo/cover.jpg" />
+          <meta property="og:url" content="https://chatounerie-du-luberon.com/" />
+          <meta property="og:image" content="https://chatounerie-du-luberon.com/static/images/seo/cover.jpg" />
           <meta property="og:locale" content="fr" />
           <meta property="og:site_name" content="La Chatounerie du Luberon" />
 
