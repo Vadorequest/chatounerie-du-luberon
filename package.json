@@ -1,13 +1,39 @@
 {
   "name": "chatounerie-du-luberon",
   "scripts": {
-    "dev": "concurrently --kill-others \"cd client && npm start && cd ..\" \"cd server && npm run start && cd ..\"",
-    "build": "cd client && npm run build && cd ..",
-    "prod": "npm run build && pm2 restart chatounerie",
-    "prod-fast": "cd server && npm run start",
-    "postinstall": "cd client && npm i && cd ../server && npm i"
+    "build": "next build",
+    "start": "next",
+    "export": "NODE_ENV=production next export -o .dist",
+    "deploy": "NODE_ENV=production yarn build && yarn export && firebase deploy",
+    "deploy:simple": "firebase deploy",
+    "ps": "sudo lsof -i tcp:3000",
+    "login": "firebase login",
+    "logout": "firebase logout"
+  },
+  "dependencies": {
+    "@zeit/next-css": "1.0.1",
+    "bootstrap": "4.2.1",
+    "classnames": "2.2.5",
+    "es6-promise": "4.2.5",
+    "isomorphic-fetch": "2.2.1",
+    "lodash.times": "4.3.2",
+    "next": "7.0.2",
+    "next-images": "1.0.4",
+    "normalize.css": "7.0.0",
+    "prop-types": "15.6.2",
+    "react": "16.7.0",
+    "react-dom": "16.7.0",
+    "react-google-maps": "7.0.0",
+    "react-jss": "6.1.1",
+    "react-responsive-carousel": "3.1.15",
+    "react-stickynode": "1.3.1",
+    "react-toastify": "1.4.1",
+    "reactstrap": "6.5.0",
+    "smoothscroll": "0.3.0",
+    "styled-jsx": "3.1.2",
+    "useragent": "2.3.0"
   },
   "devDependencies": {
-    "concurrently": "3.4.0"
+    "firebase-tools": "6.2.2"
   }
 }
