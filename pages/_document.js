@@ -52,7 +52,7 @@ export default class MyDocument extends Document {
           <link rel="shortcut icon" href="/static/images/favicon.ico" />
 
           <style>{styles}</style>
-          <script src="https://storage.googleapis.com/studylink/libs/fontawesome-pro-5.3.1-web/js/all.min.js" />
+          <script src="https://storage.googleapis.com/studylink/libs/fontawesome-pro-5.3.1-web/js/all.min.js" async />
 
           <script
             dangerouslySetInnerHTML={{
