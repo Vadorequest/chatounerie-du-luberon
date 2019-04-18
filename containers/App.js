@@ -358,7 +358,7 @@ class App extends Component {
                               Le propriétaire est conscient que son animal, vivant avec d'autres congénères, n'est pas à l'abri d'un incident éventuel.
                             </li>
                             <li>
-                              Pension ouverte toute l'année, aucune arrivée ni départ de chat les dimanches et jours fériés.
+                              Pension ouverte toute l'année, aucune arrivée ni départ de chat les dimanches et jours fériés (01/01, 22/04, 30/05, 10/06, 15/08, 11/11, 25/12).
                               Les entrées et sorties se font sur rendez-vous aux jours d'ouverture:
                               <ul>
                                 <li>Du lundi au samedi de 10h00 à 12h00 et de 14h00 à 19h00.</li>
