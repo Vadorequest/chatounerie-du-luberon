@@ -111,7 +111,7 @@ class Prices extends Component {
                           </tr>
                           <tr>
                             <th scope="row">Toussaint</th>
-                            <td>17 Octobre 2019</td>
+                            <td>1er octobre 2019</td>
                             <td>04 novembre 2019</td>
                           </tr>
                           <tr>
@@ -165,7 +165,7 @@ class Prices extends Component {
                             <tbody>
                               <tr>
                                 <th scope="row">Un ou deux chats</th>
-                                <td>12€</td>
+                                <td>13€</td>
                               </tr>
                               <tr>
                                 <th scope="row">Trois chats et plus</th>
@@ -175,8 +175,9 @@ class Prices extends Component {
                           </Table>
 
                           <Alert color="info">
-                            <strong>Séjour longue durée:</strong> 20% de réduction<br/>
-                            <small>(Pour tout séjour de 30 jours consécutifs, à partir du 31ème jour.)</small>
+                            <strong>Séjour longue durée:</strong> 20% de réduction
+                            <small>(Pour tout séjour de 30 jours consécutifs, à partir du 31ème jour.)</small><br />
+                            <small><b>N.B</b>: Il n'y a pas de tarifs dégressifs durant les périodes de Noël/Nouvel an et juillet/août.</small><br />
                           </Alert>
                           <Alert color="warning">
                             <strong>Vétérinaire:</strong> Forfait de <strong>20€</strong> + 0.50€/KM (transport aller simple)<br/>
@@ -201,7 +202,7 @@ class Prices extends Component {
                             <tbody>
                               <tr>
                                 <th scope="row">Un ou deux chats</th>
-                                <td>14€</td>
+                                <td>15€</td>
                               </tr>
                               <tr>
                                 <th scope="row">Trois chats et plus</th>
