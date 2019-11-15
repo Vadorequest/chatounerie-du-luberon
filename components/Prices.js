@@ -214,6 +214,7 @@ class Prices extends Component {
                           <Alert color="info">
                             <strong>Séjour longue durée:</strong> 20% de réduction<br/>
                             <small>(Pour tout séjour de 30 jours consécutifs, à partir du 31ème jour.)</small>
+                            <small><b>N.B</b>: Il n'y a pas de tarifs dégressifs durant les périodes de Noël/Nouvel an et juillet/août.</small><br />
                           </Alert>
                           <Alert color="warning">
                             <strong>Vétérinaire:</strong> Forfait de <strong>30€</strong> + 0.50€/KM (transport aller simple)<br/>
