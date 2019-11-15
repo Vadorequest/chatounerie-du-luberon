@@ -8,7 +8,8 @@
     "deploy:simple": "firebase deploy",
     "ps": "sudo lsof -i tcp:3000",
     "login": "firebase login",
-    "logout": "firebase logout"
+    "logout": "firebase logout",
+    "login:force": "yarn logout && yarn login"
   },
   "dependencies": {
     "@zeit/next-css": "1.0.1",
