@@ -169,7 +169,7 @@ class Prices extends Component {
                               </tr>
                               <tr>
                                 <th scope="row">Trois chats et plus</th>
-                                <td>10€</td>
+                                <td>11€</td>
                               </tr>
                             </tbody>
                           </Table>
@@ -206,7 +206,7 @@ class Prices extends Component {
                               </tr>
                               <tr>
                                 <th scope="row">Trois chats et plus</th>
-                                <td>12€</td>
+                                <td>13€</td>
                               </tr>
                             </tbody>
                           </Table>
