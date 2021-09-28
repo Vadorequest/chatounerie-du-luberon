@@ -91,33 +91,33 @@ class Prices extends Component {
                         <tbody>
                           <tr>
                             <th scope="row">Hiver</th>
-                            <td>15 Février 2020</td>
-                            <td>02 Mars 2020</td>
+                            <td>05 Février 2022</td>
+                            <td>07 Mars 2022</td>
                           </tr>
                           <tr>
                             <th scope="row">Printemps</th>
-                            <td>11 Avril 2020</td>
-                            <td>27 Avril 2020</td>
+                            <td>09 Avril 2022</td>
+                            <td>09 Mai 2022</td>
                           </tr>
                           <tr>
                             <th scope="row">Ascension</th>
-                            <td>20 Mai 2020</td>
-                            <td>25 Mai 2020</td>
+                            <td>20 Mai 2022</td>
+                            <td>25 Mai 2022</td>
                           </tr>
                           <tr>
                             <th scope="row">Été</th>
-                            <td>01 Juillet 2020</td>
-                            <td>31 Août 2020</td>
+                            <td>01 Juillet 2022</td>
+                            <td>01 Septembre 2022</td>
                           </tr>
                           <tr>
                             <th scope="row">Toussaint</th>
-                            <td>1er octobre 2020</td>
-                            <td>04 novembre 2020</td>
+                            <td>23 Octobre 2021</td>
+                            <td>08 Novembre 2021</td>
                           </tr>
                           <tr>
                             <th scope="row">Noël</th>
-                            <td>21 Décembre 2019</td>
-                            <td>06 Janvier 2020</td>
+                            <td>18 Décembre 2021</td>
+                            <td>03 Janvier 2022</td>
                           </tr>
                         </tbody>
                       </Table>
