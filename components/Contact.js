@@ -91,7 +91,7 @@ const Contact = ({ classes }) => {
                 </li>
                 <li>
                   <strong>Email:</strong>
-                  <a href="mailto:vauclusechatounerie@gmail.com?subject=[Chatounerie] Demande de renseignements&body=Bonjour,">vauclusechatounerie@gmail.com</a>
+                  {' '}<a href="mailto:vauclusechatounerie@gmail.com?subject=[Chatounerie] Demande de renseignements&body=Bonjour,">vauclusechatounerie@gmail.com</a>
                 </li>
                 <li>
                   <strong>Adresse:</strong> 899 B Chemin du Moulin D'Oise, 84440 Robion
