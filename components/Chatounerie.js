@@ -51,10 +51,12 @@ const Chatounerie = ({ classes }) => {
             <Card className="item">
               <CardImg tag="i" className="fas fa-users fa-3x pt-3 icon" />
               <CardBody>
-                <CardTitle>Disponibles</CardTitle>
+                <CardTitle>Disponibilité</CardTitle>
                 <CardText>
                   Vous redoutez de confier votre animal de compagnie à n'importe qui ? Venez <strong>découvrir nos locaux</strong>&nbsp;!<br />
-                  Notre pension est ouverte toute l'année du lundi au samedi.<br />
+                  <br />
+                  <b>Notre pension est ouverte toute l'année du lundi au samedi de 10h à midi et de 14h à 18h. <br />
+                    Nous sommes fermés les dimanches et jours fériés.</b><br />
                 </CardText>
               </CardBody>
             </Card>
