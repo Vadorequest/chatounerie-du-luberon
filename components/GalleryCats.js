@@ -48,7 +48,7 @@ const GalleryCats = ({classes, screenHeight, config}) => {
           config.galleryCats.items.map((item, index) => (
             <GalleryItem
               key={index}
-              src={`/static/images/galleryCats/${item.filename}`}
+              src={`/public/static/images/galleryCats/${item.filename}`}
               alt={`Photo de chats à la Chatounerie`}
               height={maxImageHeight}
               legend={item.legend}

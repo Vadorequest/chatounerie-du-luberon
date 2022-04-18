@@ -17,7 +17,7 @@ const styles = {
   overlay: {
     background: {
       color: 'rgba(44, 62, 80, 0.3)',
-      image: `url("/static/images/overlay_pattern.png")`,
+      image: `url("/public/static/images/overlay_pattern.png")`,
       repeat: `repeat`,
     },
     left: 0,
@@ -74,7 +74,7 @@ const styles = {
 };
 
 const Cover = ({ classes, screenHeight, config }) => {
-  const coversPath = '/static/images/covers/';
+  const coversPath = '/public/static/images/covers/';
   const covers = config.covers.items;
   const coversLength = covers.length - 1;
   const selectedCoverUrl = coversPath + covers[randomInt(0, coversLength)].filename;

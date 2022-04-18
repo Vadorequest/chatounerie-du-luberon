@@ -45,11 +45,11 @@ export default class MyDocument extends Document {
           />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://chatounerie-du-luberon.com/" />
-          <meta property="og:image" content="https://chatounerie-du-luberon.com/static/images/seo/cover.jpg" />
+          <meta property="og:image" content="https://chatounerie-du-luberon.com/public/static/images/seo/cover.jpg" />
           <meta property="og:locale" content="fr" />
           <meta property="og:site_name" content="La Chatounerie du Luberon" />
 
-          <link rel="shortcut icon" href="/static/images/favicon.ico" />
+          <link rel="shortcut icon" href="/public/static/images/favicon.ico" />
 
           <style>{styles}</style>
           <script src="https://storage.googleapis.com/studylink/libs/fontawesome-pro-5.3.1-web/js/all.min.js" async />

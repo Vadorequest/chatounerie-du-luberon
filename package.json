@@ -1,25 +1,20 @@
 {
   "name": "chatounerie-du-luberon",
   "scripts": {
+    "dev": "next dev",
     "build": "next build",
-    "start": "next",
+    "start": "next start",
+    "deploy": "vercel deploy",
     "export": "NODE_ENV=production next export -o .dist",
-    "deploy": "NODE_ENV=production yarn build && yarn export && firebase deploy",
-    "deploy:simple": "firebase deploy",
-    "ps": "sudo lsof -i tcp:3000",
-    "login": "firebase login",
-    "logout": "firebase logout",
-    "login:force": "yarn logout && yarn login"
+    "ps": "sudo lsof -i tcp:3000"
   },
   "dependencies": {
-    "@zeit/next-css": "1.0.1",
     "bootstrap": "4.2.1",
     "classnames": "2.2.5",
     "es6-promise": "4.2.5",
     "isomorphic-fetch": "2.2.1",
     "lodash.times": "4.3.2",
-    "next": "7.0.2",
-    "next-images": "1.0.4",
+    "next": "12.1.5",
     "normalize.css": "7.0.0",
     "prop-types": "15.6.2",
     "react": "16.7.0",
@@ -33,8 +28,5 @@
     "smoothscroll": "0.3.0",
     "styled-jsx": "3.1.2",
     "useragent": "2.3.0"
-  },
-  "devDependencies": {
-    "firebase-tools": "6.2.2"
   }
 }

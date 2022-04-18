@@ -94,7 +94,7 @@ const Services = ({ classes, toggleConditionsModal }) => {
                       L'alimentation que nous avons choisie pour nos fins gourmets est réputée être de qualité.
                       Nous avons opté pour des croquettes Royal Canin, sensible 33, pour permettre une bonne digestion, même pour les plus délicats.
                       <img
-                        src="/static/images/cat-mouse.jpg"
+                        src="/public/static/images/cat-mouse.jpg"
                         style={{ width: '100%' }}
                         alt="Cat eats mouse"
                       />
