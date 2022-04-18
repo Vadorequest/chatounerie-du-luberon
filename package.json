@@ -9,7 +9,7 @@
     "ps": "sudo lsof -i tcp:3000",
     "login": "firebase login",
     "logout": "firebase logout",
-    "login:force": "yarn logout && yarn login"
+    "login:force": "firebase logout && firebase login"
   },
   "dependencies": {
     "@zeit/next-css": "1.0.1",
