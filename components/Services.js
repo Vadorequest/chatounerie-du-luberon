@@ -66,10 +66,6 @@ const Services = ({ classes, toggleConditionsModal }) => {
                 <CardText tag="div">
                   <ul>
                     <li>
-                      ​Afin de leur offrir le loisir de se détendre, de courir, de sauter et de jouer avec les éléments naturels, une chatterie extérieure devrait être conçue d'ici la fin du printemps. Les chats auront la possibilité d'y accéder, elle sera équipée de plateformes, de troncs d'arbres et de poutres.
-                      Ainsi ils pourront à loisir profiter du grand air, observer insectes et papillons et écouter le chant des oiseaux et des cigales en été.
-                    </li>
-                    <li>
                       Même le chat qui n'a pas l'habitude d'être en compagnie de ses congénères se comportera différemment à la Chatounerie, car, n'étant pas chez lui, il n'a pas de territoire à défendre et deviendra donc plus sociable.
                       C'est pour cette raison que nous ne pourrons pas accepter les effets personnels de vos chatounets.
                     </li>
