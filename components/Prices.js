@@ -91,33 +91,33 @@ class Prices extends Component {
                         <tbody>
                           <tr>
                             <th scope="row">Hiver</th>
-                            <td>05 Février 2022</td>
-                            <td>07 Mars 2022</td>
+                            <td>10 Février 2022</td>
+                            <td>11 Mars 2022</td>
                           </tr>
                           <tr>
                             <th scope="row">Printemps</th>
-                            <td>09 Avril 2022</td>
-                            <td>09 Mai 2022</td>
+                            <td>20 Avril 2022</td>
+                            <td>06 Mai 2022</td>
                           </tr>
                           <tr>
                             <th scope="row">Ascension</th>
-                            <td>20 Mai 2022</td>
-                            <td>25 Mai 2022</td>
+                            <td>08 Mai 2022</td>
+                            <td>13 Mai 2022</td>
                           </tr>
                           <tr>
                             <th scope="row">Été</th>
                             <td>01 Juillet 2022</td>
-                            <td>01 Septembre 2022</td>
+                            <td>02 Septembre 2022</td>
                           </tr>
                           <tr>
                             <th scope="row">Toussaint</th>
-                            <td>23 Octobre 2021</td>
-                            <td>08 Novembre 2021</td>
+                            <td>26 Octobre 2021</td>
+                            <td>06 Novembre 2021</td>
                           </tr>
                           <tr>
                             <th scope="row">Noël</th>
-                            <td>18 Décembre 2021</td>
-                            <td>03 Janvier 2022</td>
+                            <td>23 Décembre 2021</td>
+                            <td>08 Janvier 2022</td>
                           </tr>
                         </tbody>
                       </Table>
