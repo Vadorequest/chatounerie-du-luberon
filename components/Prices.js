@@ -96,7 +96,7 @@ class Prices extends Component {
                           </tr>
                           <tr>
                             <th scope="row">Printemps</th>
-                            <td>20 Avril 2022</td>
+                            <td>06 Avril 2022</td>
                             <td>06 Mai 2022</td>
                           </tr>
                           <tr>
