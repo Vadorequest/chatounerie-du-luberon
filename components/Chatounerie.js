@@ -40,7 +40,7 @@ const Chatounerie = ({ classes }) => {
               <CardBody>
                 <CardTitle>Éleveur professionnel</CardTitle>
                 <CardText>
-                  Grande passionnée d'animaux, cette chatounerie est un lieu confortable pour les chats.<br />
+                  Grande passionnée d'animaux, cette chatounerie collective est un lieu confortable pour les chats.<br />
                   <strong>Diplômée Cetac "Chats" et "Chiens".</strong>
                 </CardText>
               </CardBody>
@@ -67,7 +67,7 @@ const Chatounerie = ({ classes }) => {
               <CardImg tag="i" className="fas fa-comments fa-3x pt-3 icon" />
               <CardBody>
                 <CardTitle>À l'écoute</CardTitle>
-                <CardText>Nous sommes <strong>à l'écoute de nos clients et de leurs besoins</strong>, et pratiquons des <strong>tarifs dégressifs</strong> en fonction le nombre d'animaux et la durée de séjour.</CardText>
+                <CardText>Nous sommes <strong>à l'écoute de nos clients et de leurs besoins</strong>, et pratiquons des <strong>tarifs dégressifs</strong> en fonction le nombre d'animaux et la durée de séjour (à partir de 3 chats).</CardText>
               </CardBody>
             </Card>
           </Col>
