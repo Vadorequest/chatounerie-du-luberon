@@ -180,7 +180,7 @@ class Prices extends Component {
                             <small><b>N.B</b>: Il n'y a pas de tarifs dégressifs durant les périodes de Noël/Nouvel an et juillet/août.</small><br />
                           </Alert>
                           <Alert color="warning">
-                            <strong>Vétérinaire:</strong> Forfait de <strong>20€</strong> + 0.50€/KM (transport aller simple)<br/>
+                            <strong>Vétérinaire:</strong> Forfait de <strong>60€</strong> (transport aller-retour)<br />
                             <small>(Uniquement en cas de visite chez le vétérinaire)</small>
                           </Alert>
                         </CardText>
@@ -217,7 +217,7 @@ class Prices extends Component {
                             <small><b>N.B</b>: Il n'y a pas de tarifs dégressifs durant les périodes de Noël/Nouvel an et juillet/août.</small><br />
                           </Alert>
                           <Alert color="warning">
-                            <strong>Vétérinaire:</strong> Forfait de <strong>30€</strong> + 0.50€/KM (transport aller simple)<br/>
+                            <strong>Vétérinaire:</strong> Forfait de <strong>60€</strong> (transport aller-retour)<br/>
                             <small>(Uniquement en cas de visite chez le vétérinaire)</small>
                           </Alert>
                         </CardText>

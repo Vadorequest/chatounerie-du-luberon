@@ -246,7 +246,7 @@ class App extends Component {
                         </Alert>
                         <ul>
                           <li>
-                            Compte tenu des directives vétérinaires DSV, les chats qui nous sont confiés doivent avoir été vaccinés au moins 15 jours révolus avant leur entrée à la Chatounerie, <strong>contre le Typhus, le Coryza et la Leucose</strong>.
+                            Compte-tenu des directives vétérinaires DSV, les chats qui nous sont confiés doivent avoir été vaccinés au moins 15 jours révolus avant leur entrée à la Chatounerie, <strong>contre le Typhus, le Coryza et la Leucose</strong>.
                           </li>
                           <li>
                             <strong>Pour les animaux venant des départements à risque, la vaccination antirabique est exigée.</strong>
@@ -274,7 +274,7 @@ class App extends Component {
                           Aucune injection même prescrite ne sera faite autrement que par un vétérinaire.<br />
                           Nous pourrons selon les besoins de l'animal, l'y emmener.<br />
 
-                          Tout déplacement chez le vétérinaire sera facturé 20 euros en basse saison et 30 euros en haute saison pour un aller simple (dépose de l'animal à la clinique), 40 euros en basse saison et 60 euros en haute saison pour un aller-retour.​
+                          Tout déplacement chez le vétérinaire sera facturé 60 euros pour un aller-retour.
                           <small>(Voir notre grille de tarifs</small>
                         </Alert>
                         <Alert color="info">
