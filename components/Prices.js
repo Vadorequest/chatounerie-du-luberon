@@ -52,10 +52,10 @@ class Prices extends Component {
                       Tout séjour fera l'objet d'une réservation qui devra être confirmée et ne sera effective qu'après réception d'un acompte de 6€ par jour et par chat, le solde du séjour est exigible le jour de l'entrée de votre minou à la chatounerie.
                     </li>
                     <li>
-                      En cas d'annulation, en tout ou en partie, moins de 15 jours avant la date d'entrée prévue, l'acompte ne vous sera pas remboursé. <small>(Sauf en cas de décès du chat et sur présentation d'un certificat médical vétérinaire)</small>
+                      En cas d'annulation, en tout ou en partie, moins de 3 semaines avant la date d'entrée prévue, l'acompte ne vous sera pas remboursé. <small>(Sauf en cas de décès du chat et sur présentation d'un certificat médical vétérinaire)</small>
                     </li>
                     <li>
-                      Si le séjour est annulé en totalité plus de 15 jours avant la date prévue, l'acompte sera restitué avec une retenue de 30€ pour couvrir les frais de dossier.
+                      Si le séjour est annulé en totalité plus de 3 semaines avant la date prévue, l'acompte sera restitué avec une retenue de 30€ pour couvrir les frais de dossier.
                     </li>
                     <li>
                       Les frais vétérinaires qui pourraient être engagés pendant le séjour du chat devront être remboursés par son propriétaire dès son retour.
