@@ -175,7 +175,7 @@ class Prices extends Component {
                           </Table>
 
                           <Alert color="info">
-                            <strong>Séjour longue durée:</strong> 20% de réduction
+                            <strong>Séjour longue durée:</strong> 15% de réduction
                             <small>(Pour tout séjour de 30 jours consécutifs, à partir du 31ème jour.)</small><br />
                             <small><b>N.B</b>: Il n'y a pas de tarifs dégressifs durant les périodes de Noël/Nouvel an et juillet/août.</small><br />
                           </Alert>
@@ -212,7 +212,7 @@ class Prices extends Component {
                           </Table>
 
                           <Alert color="info">
-                            <strong>Séjour longue durée:</strong> 20% de réduction<br/>
+                            <strong>Séjour longue durée:</strong> 15% de réduction<br/>
                             <small>(Pour tout séjour de 30 jours consécutifs, à partir du 31ème jour.)</small>
                             <small><b>N.B</b>: Il n'y a pas de tarifs dégressifs durant les périodes de Noël/Nouvel an et juillet/août.</small><br />
                           </Alert>
