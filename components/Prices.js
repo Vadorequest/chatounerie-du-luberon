@@ -91,13 +91,13 @@ class Prices extends Component {
                         <tbody>
                           <tr>
                             <th scope="row">Hiver</th>
-                            <td>10 Février 2022</td>
-                            <td>11 Mars 2022</td>
+                            <td>08 Février</td>
+                            <td>03 Mars</td>
                           </tr>
                           <tr>
                             <th scope="row">Printemps</th>
-                            <td>06 Avril 2022</td>
-                            <td>06 Mai 2022</td>
+                            <td>05 Avril</td>
+                            <td>05 Mai</td>
                           </tr>
                           <tr>
                             <th scope="row">Ascension</th>
@@ -106,8 +106,8 @@ class Prices extends Component {
                           </tr>
                           <tr>
                             <th scope="row">Été</th>
-                            <td>01 Juillet 2022</td>
-                            <td>02 Septembre 2022</td>
+                            <td>01 Juillet</td>
+                            <td>01 Septembre</td>
                           </tr>
                           <tr>
                             <th scope="row">Toussaint</th>
@@ -165,11 +165,11 @@ class Prices extends Component {
                             <tbody>
                               <tr>
                                 <th scope="row">Un ou deux chats</th>
-                                <td>14€</td>
+                                <td>15€</td>
                               </tr>
                               <tr>
                                 <th scope="row">Trois chats et plus</th>
-                                <td>12.5€</td>
+                                <td>13.5€</td>
                               </tr>
                             </tbody>
                           </Table>
@@ -202,11 +202,11 @@ class Prices extends Component {
                             <tbody>
                               <tr>
                                 <th scope="row">Un ou deux chats</th>
-                                <td>16€</td>
+                                <td>16.5€</td>
                               </tr>
                               <tr>
                                 <th scope="row">Trois chats et plus</th>
-                                <td>14.5€</td>
+                                <td>15€</td>
                               </tr>
                             </tbody>
                           </Table>
