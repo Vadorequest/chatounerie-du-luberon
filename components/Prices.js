@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
 import withSheet from 'react-jss';
 import classNames from 'classnames';
-import {
-  Card, Alert, Col, Row, CardText, CardBody,
-  CardTitle, Table,
-  TabContent, TabPane, Nav, NavItem, NavLink
-} from 'reactstrap';
+import { Alert, Card, CardBody, CardText, CardTitle, Col, Nav, NavItem, NavLink, Row, TabContent, Table, TabPane } from 'reactstrap';
 
 const styles = {
   container: {
@@ -119,6 +115,27 @@ class Prices extends Component {
                             <td>23 Décembre 2021</td>
                             <td>08 Janvier 2022</td>
                           </tr>
+                          <tr>
+                            <th scope="row">Week-ends (ponts)</th>
+                            <td colSpan="2">
+                              <Table size="sm" borderless>
+                                <tbody>
+                                  <tr>
+                                    <td>01 Mai</td>
+                                    <td>03 Mai</td>
+                                  </tr>
+                                  <tr>
+                                    <td>29 Mai</td>
+                                    <td>31 Mai</td>
+                                  </tr>
+                                  <tr>
+                                    <td>07 Juin</td>
+                                    <td>09 Juin</td>
+                                  </tr>
+                                </tbody>
+                              </Table>
+                            </td>
+                          </tr>
                         </tbody>
                       </Table>
 
@@ -175,7 +192,7 @@ class Prices extends Component {
                           </Table>
 
                           <Alert color="info">
-                            <strong>Séjour longue durée:</strong> 15% de réduction
+                            <strong>Séjour longue durée:</strong> 15% de réduction<br />
                             <small>(Pour tout séjour de 30 jours consécutifs, à partir du 31ème jour.)</small><br />
                             <small><b>N.B</b>: Il n'y a pas de tarifs dégressifs durant les périodes de Noël/Nouvel an et juillet/août.</small><br />
                           </Alert>
@@ -213,7 +230,7 @@ class Prices extends Component {
 
                           <Alert color="info">
                             <strong>Séjour longue durée:</strong> 15% de réduction<br/>
-                            <small>(Pour tout séjour de 30 jours consécutifs, à partir du 31ème jour.)</small>
+                            <small>(Pour tout séjour de 30 jours consécutifs, à partir du 31ème jour.)</small><br />
                             <small><b>N.B</b>: Il n'y a pas de tarifs dégressifs durant les périodes de Noël/Nouvel an et juillet/août.</small><br />
                           </Alert>
                           <Alert color="warning">
