@@ -121,7 +121,7 @@ class Prices extends Component {
                                   </tr>
                                   <tr>
                                     <td>29 Mai</td>
-                                    <td>1er Juin</td>
+                                    <td>01 Juin</td>
                                   </tr>
                                   <tr>
                                     <td>07 Juin</td>
