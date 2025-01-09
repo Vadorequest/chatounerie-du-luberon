@@ -96,24 +96,19 @@ class Prices extends Component {
                             <td>05 Mai</td>
                           </tr>
                           <tr>
-                            <th scope="row">Ascension</th>
-                            <td>08 Mai 2022</td>
-                            <td>13 Mai 2022</td>
-                          </tr>
-                          <tr>
                             <th scope="row">Été</th>
                             <td>01 Juillet</td>
                             <td>01 Septembre</td>
                           </tr>
                           <tr>
                             <th scope="row">Toussaint</th>
-                            <td>26 Octobre 2021</td>
-                            <td>06 Novembre 2021</td>
+                            <td>18 Octobre</td>
+                            <td>02 Novembre</td>
                           </tr>
                           <tr>
                             <th scope="row">Noël</th>
-                            <td>23 Décembre 2021</td>
-                            <td>08 Janvier 2022</td>
+                            <td>20 Décembre</td>
+                            <td>05 Janvier 2026</td>
                           </tr>
                           <tr>
                             <th scope="row">Week-ends (ponts)</th>
@@ -126,7 +121,7 @@ class Prices extends Component {
                                   </tr>
                                   <tr>
                                     <td>29 Mai</td>
-                                    <td>31 Mai</td>
+                                    <td>1er Juin</td>
                                   </tr>
                                   <tr>
                                     <td>07 Juin</td>
